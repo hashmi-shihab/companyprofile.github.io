@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from colgis-bd.com/aboutBangladesh.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Oct 2022 16:43:44 GMT -->
+<head>
+	<title>About Bangladesh</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="css/homepage.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif|Bree+Serif|Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="icon" href="image/colgis_logo_transparent.png" type="image/png">
+	<link rel="stylesheet" href="../use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+</head>
+<body>
+	
+	<style type="text/css">
+	#overlay{
+		position:fixed;
+		z-index:99999;
+		top:0;
+		left:0;
+		bottom:0;
+		right:0;
+		background:rgba(0,0,0,0.9);
+		transition: 1s 0.4s;
+	}
+	#progress{
+		height:1px;
+		background:#fff;
+		position:absolute;
+		width:0;                /* will be increased by JS */
+		top:50%;
+	}
+	#progstat{
+		font-size:0.7em;
+		letter-spacing: 3px;
+		position:absolute;
+		top:50%;
+		margin-top:-40px;
+		width:100%;
+		text-align:center;
+		color:#fff;
+	}
+	/*.collapsible-header{
+
+		background:#455a64;
+		color: white;
+	}*/
+	h4{
+		color: #263238;
+		text-align: center;
+		/*font-family: 'Noto Serif SC', serif;*/
+	}
+	p{
+		text-align: justify;
+	}
+	.carousel-item img{
+		border-radius: 50%;
+	}
+
+	.carousel .carousel-item {
+		width: 230px !important;
+		height: 230px !important;
+	}
+
+	 .carousel-item h4{
+    font-size: 27px !important;
+  }
+ .carousel-item img{
+    border: 6px solid #37474f !important;
+  }
+</style>
+<div id="overlay">
+	<div id="progstat"></div>
+	<div id="progress"></div>
+</div>
+<div class="navbar-fixed scrollspy" id="home">
+	<div class="news-marquee">
+		<marquee direction="scroll" scrollamount="5">Currently, all staffs of Colgis BD Ltd. are working from home due to global corona crisis. When this pandemic is under control, we are planning to rent another office for employees.</marquee>
+	</div>
+	<nav class="blue-grey darken-3">
+		<div class="nav-wrapper">
+			<a href="index.html" class="brand-logo" style="width: 220px;">
+				<img src="image/colgis_logo_transparent.png" style="height: 60px"> <span class="logotext" style=""> Colgis BD</span>
+			</a>
+			<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html#service">Service</a></li>
+				<li><a href="company.html">Company Profile</a></li>
+				<li><a href="aboutBangladesh.html">About Bangladesh</a></li>
+				<li><a target="_blank" href="https://recruit-bd.colgis.jp/jobs">Career</a></li>
+				<li><a href="index.html#contact">Contact Us</a></li>
+				<li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><img src="image/en.png" style="width: 30px;margin: 0 -15px -10px 0;"><i class="material-icons right">arrow_drop_down</i></a></li>
+			</ul>
+		</div>
+	</nav>
+</div>
+<ul id="slide-out" class="sidenav">
+	<li><a href="index.html#home">Home</a></li>
+	<li><a href="index.html#service">Service</a></li>
+	<li><a href="company.html">Company Profile</a></li>
+	<li><a href="aboutBangladesh.html">About Bangladesh</a></li>
+	<li><a target="_blank" href="https://recruit-bd.colgis.jp/jobs">Career</a></li>
+	<li><a href="index.html#contact">Contact Us</a></li>
+</ul>
+<!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
+
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content" >
+	<li><a href="#!"><img src="image/jp.png" style="width: 30px;margin: 0 -15px -10px 0;"></a></li>
+	<li><a href="#!"><img src="image/en.png" style="width: 30px;margin: 0 -15px -10px 0;"></a></li>
+	<li class="divider"></li>
+	<li><a href="#!"><img src="image/bn.png" style="width: 30px;margin: 0 -15px -10px 0;"></a></li>
+	<li class="divider"></li>
+</ul>
+
+<div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="image/tiger.jpg"> <!-- random image -->
+        <div class="caption center-align page-title-slider">
+          <h3>About Bangladesh</h3>
+          <h5 class="light grey-text text-lighten-3">Introducing Bangladesh!</h5>
+        </div>
+      </li>
+      <li>
+        <img src="image/ratargul.jpg"> <!-- random image -->
+        <div class="caption left-align page-title-slider">
+          <h3>The Land of Rivers</h3>
+          <h5 class="light grey-text text-lighten-3">Explore the natural beauty of the river-land!</h5>
+        </div>
+      </li>
+      <li>
+        <img src="image/teaGarden.jpg"> <!-- random image -->
+        <div class="caption right-align page-title-slider">
+          <h3>The Land of Natural Beauty</h3>
+          <h5 class="light grey-text text-lighten-3">Explore ever green land and it's beauty!</h5>
+        </div>
+      </li>
+      <li>
+        <img src="image/bd11.jpg"> <!-- random image -->
+        <div class="caption center-align page-title-slider">
+          <h3>Welcome to The Land of Joy and Happiness!</h3>
+          <h5 class="light grey-text text-lighten-3">Explore the joy of happiness and join our celebartion of joy!</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="container">
+<!-- collapsible -->
+  <ul class="collapsible popout">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">public</i>About Bangladesh</div>
+      <div class="collapsible-body text-align">
+      	<span><p>Bangladesh, officially the People's Republic of Bangladesh is a country in South Asia(converging with Southeast Asia), bordering the Bay of Bengal to the South, almost entirely encircled by the Republic of India to the West, North and East and Myanmar to the Southeast.<br><br>The riverine country of Bangladesh (b Land of the Bengalsb ي is one of the most densely populated countries in the world, and is a Muslim Majority nation with Islam as its offical relegion of the country professed by the majority and freedom of religion is guaranteed by its constitution in which it gives equal rights to all citizens irrespective of religion.<br><br>Bangladesh has a sub tropical monsoon climate. There are six seasons in a year: Winter (Dec-Jan), Spring (Feb-Mar), Summer (Apr-May), Monsoon (June-July), Autumn (Aug-Sep), and Late Autumn (Oct-Nov). The average temperature across the country usually ranges between 9C - 29C in winter months and between 21C - 34C during summer months.</p></span>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons" >hourglass_full</i>History of Bangladesh</div>
+      <div class="collapsible-body">
+      	<span><p><h5>Ancient and classical Bengal</h5>Buddha and Bodhisattvas, 11th century, Pala Empire.Stone Age tools dating back to over 20,000 years ago have been found in the Greater Bengal region thus indicating human settlement in the region.Ancient Bengal was initially occupied by the Austroasiatics, Tibeto-Burmans, Dravidians, and Indo-Aryans in successive waves of migration and main urban settlements were established during the Iron Age towards the middle of the first BCE millennium when the Northern Black Polished Ware culture was established in the Indian sub-continent.</p><p>Bengal was governed by the Mauryan Empire in the 3rd and 2nd centuries BCE. With their citadels in the Bihar and Bengal territories, the Mauryans established the first geographically widespread Iron Age empire in ancient India. The empire promoted Buddhism and Jainism and it was able to reach its apex under emperor Ashoka. The Gupta Empire finally succeeded the Mauryan Empire in the 3rd century. This empire was believed to have originated from the Varendra area in Bangladesh, and it corresponds to present-day Rangpur and Rajshahi divisions. This era brought about the theory of the Earth orbiting the Sun, invention of chess, the study of the lunar and solar eclipses, the concept of zero, and the thriving of drama and Sanskrit literature.In classical antiquity, Bengal was partitioned between different kingdoms.</p><p>The Pala Empire was seen as the biggest Bengali nation developed in ancient history. The empire covered the majority of the north Indian sub-continent during its peak in the 9th century. The Palas were Mahayana Buddhists, and they h2ly supported education, architecture, and art, thus leading to the establishment of the Pala School of Painting and Sculptural Art, the universities of Vikramshila and Nalanda, and the Somapura Mahavihara. The proto-Bengali dialect materialized under Pala rule. The Hindu Sena dynasty, however, took power in the 11th century and it h2ly promoted Brahmanical Hinduism and laid the basis of Bengali Hinduism. The Senas also supported their school of Hindu Art after being inspired by their predecessors. They also merged the caste system in Bengal.Bengal was also an intersection of the Southwestern Silk Road.</p></span>
+		<span><p><h5>Islamic Bengal</h5>In 1905 Lord Curzon created the Partition of Bengal.Merchants from the Middle East, Sufis, and missionaries brought with them Islam on the shores of Bengal towards the end of the first millennium. It has been suggested by some experts that early Muslims, including Sa`d ibn Abi Waqqas, uncle to Prophet Muhammad, used Bengal as a passage point to travel to China on the Southern Silk Road. The excavation of the Abbasid Caliphate coins in the country portrayed a sturdy trade system during the era of the House of Wisdom in Baghdad, when Arab scientists assimilated pre-Islamic Greek and Indian discoveries. This eventually led to the Indo-Arabic numerals system.</p><p>successive Muslim occupation assimilated the achievements and culture of pre-Islamic civilization in Bengal in the new Islamic polity. The Muslims were able to adopt traditions and customs including food, dress, and way of life, such as wearing bangles, bindu and saris by the Muslim women; and art forms in theater, dance, and music. Conversion to Islam was reinforced in the country via the construction of madrasas, mosques, and Sufi Khanqahs.</p><p>By the 14th century, a sovereign Bengal Sultanate was formed and it was known for its cultural pluralism. The Sultanate, however, started to fall apart by the 16th century and by 1532, Bengal was overran by the Sur Empire who constructed the Grand Trunk Road. Baro-Bhuyan zamindars and Hindu rajas acquired control on huge sections of the territory, particularly in the fertile Bhati area.</p>Towards the end of the 16th century, the Mughal Empire conquered the Bengal delta after the Battle of Tukaroi and Dhaka was formed as Mughal's provincial capital in 1608. Mughal rule brought about agrarian reforms, economic prosperity, and thriving external trade especially in silk textiles and muslin. The agrarian reforms transformed Bengal into the rice basket of the Indian sub-continent.</p><p>In 1717, the Nawabs of Bengal created a sovereign principality and their headquarters were in Murshidabad. The last sovereign Nawab was, however, defeated on 23 June 1757 at the Battle of Plassey by the British.</p><p><h5>British Bengal</h5>The rule of the British East India Company began in 1757 and the Bengal Presidency was formed in 1765 with its capital in Calcutta. During British tenure, East Bengal established a plantation economy that was centered on tea production and jute trade and its share in the supply of jute rose in the early 20th century. In 1905, British divided Bengal and established the administrative division of Eastern Bengal and Assam. This partitioning led to the Swadeshi movement led by the Indian National Congress and in 1911 the division was annulled.</p><p>By the 1930s, the Krishak Praja Party and the Swaraj Party came to represent Bengali's new middle class. The Krishak Praja Party became allies with the Muslim League in 1940 to present the Lahore Resolution which visualized sovereign nations in the northwestern and eastern sub-continent.</p><p>In 1943, the Muslim League established a parliamentary government in the country and in 1946, the victory of the Bengal Muslim League at the Indian provincial elections set the course for the division of British India and the formation of the Dominion of Pakistan on 14 August 1947.</p><p>The period between 1947 and 1970 was characterized by a lot of friction between East Bengal and the Dominion of Pakistan.</p><p><h5>Bangladesh War of independence</h5>On 23 March 1971, the Bangladeshi flag was raised for the first time. Operation Searchlight was, however, launched on 26 March 1971 by the Pakistani military junta who massacred Bengali politicians, students, intellectuals, military defectors, and civil servants during the 1971 Bangladesh genocide.</p><p>During the liberation war, Bengali locals proclaimed a declaration of independence and created the Mukti Bahini, the Bangladeshi National Liberation Army. During the war, the army held Bengali's countryside and waged guerilla operations against the Pakistani forces. India offered support to the army during the war. The United States and the Soviet Union also sent naval forces to the Bengal Bay to offer support. The war lasted for nine months and it came to an end when the Pakistani military surrendered to the Bangladesh-India Allied Forces on 16th December 1971.</p><p>After gaining its independence, Bangladesh became a republic within the Commonwealth and a secular democracy. in 1973, Bangladesh joined the OIC and the Non-Aligned Movement, and later joined the United Nations in 1974.</p>
+		</span>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">toys</i>Festivals</div>
+      <div class="collapsible-body"><span><p>Bangladesh is a country of festivals and celebrations. People of Bangladesh are by nature very festive and also these fairs and festivals play an important role in the social life of ordinary Bangladeshis. <a href="#Festivals">See more</a></p></span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons" >restaurant_menu</i>Food</div>
+      <div class="collapsible-body"><span><p>Bangladeshi cuisine is the national cuisine of Bangladesh. Bangladeshi cuisine has been shaped by the diverse history and river-line geography of Bangladesh. Rice and fish are the main staple food of Bangladeshi people. The famous proverb "mache bhate bangali" translates as "Bangali by fish and rice". Also vegetable curry, meat curry and daal are mandatory in everyday meal in Bangladesh. People of Bangladesh like spices and sweet dishes most. Spices are present almost every cooked dishes. Almost everywhere in Bangladesh you will going to find sweet snacks (called pitha) and lots of other sweet dishes specially in winter season. <a href="#Food">See more</a></p></span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">place</i>Places to Visit</div>
+      <div class="collapsible-body"><span><p>Bangladesh is a small and beautiful asian country bordered by India and Burma and by the Bay of Bengal to the south. The capital is Dhaka, located in central Bangladesh. Other major cities include Chittagong, Khulna, Rajshahi, Sylhet, Barisal, Bogra, Comilla, Mymensingh and Rangpur. Bangladesh is small in area but quite rich in heritage with numerous historical and archeological sites. It has the longest natural unbroken sea beach,largest single block of tidal halophytic mangrove forest, tropical cliche and coral island, bigest five World Heritage Sites. For travel lovers Bangladesh will be the best place to vist. Travelers can explore Bangladesh in very cheap cost and receive warm hospitality from the people of Bangladesh. Foreign travelers are always welcoming here in Bangladesh to explore it's natural beauty and many more. <a href="#place">see more</a></p></span></div>
+    </li>
+  
+    <li>
+      <div class="collapsible-header"> <i class="material-icons">play_arrow</i>Music</div>
+      <div class="collapsible-body"><span><p>Bangladesh claims some of the most renowned singers, composers and producers in South Asia. Bangladeshi music spans a wide variety of styles. Music has served the purpose of documenting the lives of the people and was widely patronized by the rulers. It comprises a long tradition of religious and regular song writing over a period of almost a millennium.</p><p><h5>Classical music</h5><b>Rabindra Sangeet(Music of Robindra)</b><br><br>Rabindra Sangeet, also known as Tagore Songs, are songs written and composed by Rabindranath Tagore. They have distinctive characteristics in the music of Bengal, popular in India and Bangladesh.<br>To know more about Rabindra Sangeet, <a href="https://en.wikipedia.org/wiki/Rabindra_Sangeet">visit.</a></p><p><b>Nazrul Sangeet(Music of Nazrul)</b><br><br>Nazrul Geeti or Nazrul Sangeet, literally "music of Nazrul," are songs written and composed by Kazi Nazrul Islam, a Bengali poet and national poet of Bangladesh and active revolutionary during the Indian Independence Movement. Nazrul Sangeet incorporate revolutionary notions as well as more spiritual, philosophical and romantic themes.<br>To know more about Nazrul Sangeet, <a href="https://en.wikipedia.org/wiki/Nazrul_Geeti">visit.</a></p><p><h5>Folk Music</h5>Folk has come to occupy the lives of Bangladeshis almost more than any other genre of Bengali music. Among the luminaries of the different folk traditions are Lalon Fokir, Radharaman Dutta, Hason Raja, Khursheed Nurali (Sheerazi), Ramesh Shil, Kari Amir Uddin Ahmed and Abbas Uddin. Folk songs are characterised by simple musical structure and words. Before the advent of radio, entertainment in the rural areas relied on a large extent on stage performances by folk singers. With the arrival of new communication technologies and digital media, many folk songs were modernised and incorporated into modern songs. We have Baul, Bhandari, Bhatiali, Bhawaiya, Dhamail, Gazir Gaan, Gombhira, Hason Raja, Jari, Jatra Pala, Jhumur, Kavigan, Lalon, Pala Gaan, Sari Gaan, Shyama Sangeet and many more flok songs.</p><p>Among all Lalon song is most populer not only in Bangladesh also in many part of world. Infact many foreign people come to Bangladesh just for the purpose of research on lalon music. To know more about Lalon, <a href="https://en.wikipedia.org/wiki/Lalon">visit</a></p><p><h5>Modern bangla music</h5>Adhunik sangeet literally means "modern songs". Although, to outsiders, this may seems like an ambiguous nomenclature, it has particular motivations. Bengali music traditionally has been classified mainly by the region of origin and the creators of the musical genre, such as Nazrul geeti (written and composed by Kazi Nazrul Islam), ghombhira (unique to a specific area in Bangladesh), etc. However, this prevented the ability to classify any music that failed to fit into any of the classes. In the period just before Indian independence, several new minor musical genres emerged, mainly in the form of playback songs for movies. A miscellaneous category, Adhunik sangeet, was created, since, at that time, this music was "modern".<br>For the list of Bangladeshi modern music collection, <a href="http://webmusic.live/music/mobile/bengali/adhunik.php">visit</a></p><p><h5>Bangladeshi Rock Music</h5>Bangladeshi rock was introduced in 1972 by singer, songwriter, music composer Nasir Ahmed Apu of Spondan band, pioneer of Bengali pop or rock and re-invented Bengali folk music in Bangladesh. Present time most populer bands are Souls, Miles, Nagar Baul, Warfaze, RockStrata, LRB, Ark, Blue Birds etc. To Know more about Bangladeshi pop or rock music, <a href="https://en.wikipedia.org/wiki/Bangladeshi_rock">visit</a></p></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">directions_run</i>Sports</div>
+      <div class="collapsible-body"><span><p>Bangladeshi Sports is the largest domestic multi-sport tournament in Bangladesh where athletes and sports teams from all the districts of Bangladesh participate. Although Kabadi is the national sports of Bangladesh but cricket is mostly played sports over nation. Now a days Bangladesh National Wemon Crickt team also doing very well alone with national cricket team Bangladesh.<br>For more information about Bangladesh cricket activities, <a href="https://en.wikipedia.org/wiki/Category:2018_in_Bangladeshi_cricket">visit</a><br><br>Football is second most played sports in Bangladesh. Bangladesh Football Federation trying hard for Bangladesh Football Premier League. For more information about Bangladesh Football activities, <a href="https://en.wikipedia.org/wiki/Category:2018_in_Bangladeshi_football">visit</a><br><br>Every year Bangladesh compete at the Asian Games. In 2018 Asian Games a total of 117 athletes from Bangladesh participated in 14 sports. For details, <a href="https://en.wikipedia.org/wiki/Bangladesh_at_the_2018_Asian_Games">visit</a><br><br>Bangladesh competed at the 2018 Commonwealth Games in the Gold Coast, Australia from April 4 to April 15, 2018. It was Bangladesh's 9th appearance at the Commonwealth Games. For details, <a href="https://en.wikipedia.org/wiki/Bangladesh_at_the_2018_Commonwealth_Games">visit</a></p></span></div>
+    </li>
+  </ul>
+<!-- end collapsible -->
+<h3 class="scrollspy center" id="Festivals">Festivals</h3><br><br>
+	 <div class="row">
+	    <div class="col s12 m6 l4 festivalCard">
+	    	 <div class="card z-depth-4">
+	    	   <div class="card-image waves-effect waves-block waves-light">
+	    	     <img class="activator" src="image/falgun.jpg">
+	    	   </div>
+	    	   <div class="card-content">
+	    	     <span class="card-title activator grey-text text-darken-4">Pahela Falgun<i class="material-icons right">more_vert</i></span>
+	    	     <p>February 13</p>
+	    	   </div>
+	    	   <div class="card-reveal">
+	    	     <span class="card-title grey-text text-darken-4">Pahela Falgun<i class="material-icons right">close</i></span>
+	    	     <p>Falgun is the eleventh month in the Bengali calendar and the first month of the season, Spring, the king of all the six seasons that brings back warm sunshine, budding flowers and dancing of birds.Pohela Falgun means music, colour and happiness to Bangladeshi people. Weomen celebrate falgun wearing treaditional basonti colored shari and flower ornaments adding flowers on hair and men wear basonti colored panjabi (treaditional dress). Cultural festival speically flok song and dance and treditional fair organize all over Bangladesh to celebrate pohela falgun.</p>
+	    	   </div>
+	    	 </div>
+	    </div>
+	    <div class="col s12 m6 l4 festivalCard">
+	    	<div class="card z-depth-4">
+	    	   <div class="card-image waves-effect waves-block waves-light">
+	    	     <img class="activator" src="image/21Feb.jpg">
+	    	   </div>
+	    	   <div class="card-content">
+	    	     <span class="card-title activator grey-text text-darken-4">Mother Language Day<i class="material-icons right">more_vert</i></span>
+	    	     <p>February 21</p>
+	    	   </div>
+	    	   <div class="card-reveal">
+	    	     <span class="card-title grey-text text-darken-4">Mother Language Day<i class="material-icons right">close</i></span>
+	    	     <p>In Bangladesh, 21 February (Ekushey February) is observed as Language Movement Day. It is also known as Shohid Dibosh (Martyr Day). On 17 November 1999, the UNESCO General Conference recognized 21 February as International Mother Language Day. Bangladeshis celebrate International Mother Language Day by placing flowers at the Martyrs Monument and its replicas. On this day from morning 6:00 am Bangladeshi pepole go to Shaheed Minar (Martyr Monument), at the University of Dhaka on bearfoot for placing flowers at the Martyrs Monument and its replicas to show respect to the commemorates those who were killed in the 21 February 1952 Bengali Language Movement demonstration. The day  is a public holiday in the country since 1953. Bangladeshis organize social gatherings honoring their language and culture, hold literary competitions, draw alpana on the roads, eat festive meals and listen to songs.The song "Amar vayer rokte rangano 21 february" means 21 February is colored by my brothers blood played on the premises of Shahid Minar.<br><br>The Ekushey Book Fair or Amar Ekushe Grantha Mela, the national book fair of Bangladesh arranged each year by Bangla Academy and takes place for the whole month of February in Dhaka. This event is dedicated to the martyrs who died on 21 February 1952 in a demonstration calling for the establishment of Bengali as one of the state languages of former East Pakistan.</p>
+	    	   </div>
+	    	 </div>
+	    </div>
+
+	    <div class="col s12 m6 l4 festivalCard">
+	    	<div class="card z-depth-4">
+	    	   <div class="card-image waves-effect waves-block waves-light">
+	    	     <img class="activator" src="image/IndependenceDay.jpg">
+	    	   </div>
+	    	   <div class="card-content">
+	    	     <span class="card-title activator grey-text text-darken-4">The Independence Day<i class="material-icons right">more_vert</i></span>
+	    	     <p>March 26</p>
+	    	   </div>
+	    	   <div class="card-reveal">
+	    	     <span class="card-title grey-text text-darken-4">The Independence Day<i class="material-icons right">close</i></span>
+	    	     <p>The Independence Day of Bangladesh, taking place on 26 March. The day is a national holiday. It commemorates the country's declaration of independence from Pakistan in the late hours of 25 March 1971.<br><br>Independence Day is commonly associated with parades, political speeches, fairs, concerts, ceremonies and various other public and private events celebrating the history and traditions of Bangladesh. TV and radio stations broadcast special programs and patriotic songs in honor of the Independence Day. Generally, a thirty-one gun salute is conducted in the morning. The main streets are decorated with national flags. Different political parties and socioeconomic organizations undertake programs to mark the day in a befitting manner, including paying respects at Jatiyo Smriti Soudho (the national memorial) at Savar near Dhaka.</p>
+	    	   </div>
+	    	 </div>
+	    </div>
+	    <div class="col s12 m6 l4 festivalCard">
+	    	 <div class="card z-depth-4">
+	    	   <div class="card-image waves-effect waves-block waves-light">
+	    	     <img class="activator" src="image/pahelaBoishakh.jpg">
+	    	   </div>
+	    	   <div class="card-content">
+	    	     <span class="card-title activator grey-text text-darken-4">Bangla Nabobarsho<i class="material-icons right">more_vert</i></span>
+	    	     <p>April 14</p>
+	    	   </div>
+	    	   <div class="card-reveal">
+	    	     <span class="card-title grey-text text-darken-4">Bangla Nabobarsho<i class="material-icons right">close</i></span>
+	    	     <p>Pahela Baishakh or Bangla Nabobarsho is the first day of Bengali Calendar. It is celebrated on 14 April as a national holiday in Bangladesh.<br><br>The celebrations start in Dhaka at dawn with a rendition of Rabindranath Tagore's song "Esho he Baishakh" by Chhayanaut under the banyan tree at Ramna (the Ramna Batamul). An integral part of the festivities is the Mangal Shobhajatra, a traditional colourful procession organised by the students of the Faculty of Fine Arts, University of Dhaka (Charukala). The Mangal Shobhajatra is celebrated by different organization in all over the country. Every year Dhaka University students organized the The Mangal Shobhajatra. They create masks and floats with at least three theme, one highlighting evil, another courage, and a third about peace. It also highlighted the pride of Bangladeshi people for their folk heritage irrespective of religion, creed, caste, gender or age.<br><br>The day is marked with singing, processions, and fairs. Traditionally, businesses start this day with a new ledger, clearing out the old. Traders close old ledgers and open a new ledger for the new year. Customers invited to settle old debts.The event is called Halkhata. This is to improve the relationship between traders and customers, traders give sweets, snacks, or gifts to their customers.The festival is celebrated in Bangladesh as believed to bring good luck to business.<br><br>Singers perform traditional songs welcoming the new year. People enjoy classical jatra plays (Treditional Drama). People wear festive dress with women desking their hair with flowers. White-red color combinations are particularly popular. People of Bangladesh prepare and enjoy varieties of traditional festive foods on Pahela Boishakh. These include panta bhat (watered rice), ilish bhaji (fried hilsa fish) and lots of special bhartas (pastes).</p>
+	    	   </div>
+	    	 </div>
+	    </div>
+	    
+
+	    <div class="col s12 m6 l4 festivalCard">
+	    	<div class="card z-depth-4">
+	    	   <div class="card-image waves-effect waves-block waves-light">
+	    	     <img class="activator" src="image/NobannoUtshob.jpg">
+	    	   </div>
+	    	   <div class="card-content">
+	    	     <span class="card-title activator grey-text text-darken-4">Nabanna Feast<i class="material-icons right">more_vert</i></span>
+	    	     <p>November 15</p>
+	    	   </div>
+	    	   <div class="card-reveal">
+	    	     <span class="card-title grey-text text-darken-4">Nabanna Feast<i class="material-icons right">close</i></span>
+	    	     <p>Nabanna Feast is a Bengali harvest celebration, usually celebrated with food and dance and music in Bangladesh. It is a festival of food, many local preparations of Bengali cuisine like pitha (traditional snack) are cooked and offered.The festival is celebrated with mela (fair) which are called nabanna mela.It is one of the numerous festivals that gave the name "baro mase tero parban" (thirteen festivals in twelve months ) to the land of Bengal.<br><br>People not only come to visit the Mela. In addition, they participate in many cultural programmes and competitions like 'Pitha Making' (Preparation of different sorts of Bengali cakes or snacks), Seat-and Draw, Senior Citizens' Walking Competition etc. An "Art-Camp" may attract creative minded people where artists from different states will participate. Some rare items of rural Bengal as "Dhenki" (Old-style Domestic Rice Mill), paddy of different varieties directly from the farmers' house are to be exhibited in the Exhibition ground. You can taste some delicious Bengali dishes like Pati-sapta, Payesh (the latest addition is 'Vegetable Payesh'), Jilipipi etc. during the festival. Bengal's time-honoured culture and heritage will be presented to you in forms of Baul song, Chhou-dance, Jatra, Tarja, Kobi-gaan, etc.</p>
+	    	   </div>
+	    	 </div>
+	    </div>
+
+	    <div class="col s12 m6 l4 festivalCard">
+	    	<div class="card z-depth-4">
+	    	   <div class="card-image waves-effect waves-block waves-light">
+	    	     <img class="activator" src="image/victoryDay.jpg">
+	    	   </div>
+	    	   <div class="card-content">
+	    	     <span class="card-title activator grey-text text-darken-4">Victory day<i class="material-icons right">more_vert</i></span>
+	    	     <p>December 16</p>
+	    	   </div>
+	    	   <div class="card-reveal">
+	    	     <span class="card-title grey-text text-darken-4">Victory day<i class="material-icons right">close</i></span>
+	    	     <p>Victory day or Bijoy Dibos is a national holiday in Bangladesh celebrated on December 16 to commemorate the victory of the allied forces over the Pakistani forces in the Bangladesh Liberation War in 1971.<br><br>The Bangladesh Liberation War became a topic of great importance in cinema, literature, history lessons at school, the mass media, and the arts in Bangladesh. The ritual of the celebration gradually obtained a distinctive character with a number of similar elements: Military Parade by Bangladesh Armed Forces at the National Parade Ground, ceremonial meetings, speeches, lectures, receptions and fireworks. Victory Day in Bangladesh is a joyous celebration in which popular culture plays a great role. TV and radio stations broadcast special programs and patriotic songs. The main streets are decorated with national flags. Different political parties and socioeconomic organizations undertake programs to mark the day in a befitting manner, including the paying of respects at Jatiyo Smriti Soudho, the national memorial at Savar in Dhaka District.</p>
+	    	   </div>
+	    	 </div>
+	    </div>
+	    <div class="col s12 m6 l4 festivalCard">
+	    	 <div class="card z-depth-4">
+	    	   <div class="card-image waves-effect waves-block waves-light">
+	    	     <img class="activator" src="image/EidUlFitr.jpg">
+	    	   </div>
+	    	   <div class="card-content">
+	    	     <span class="card-title activator grey-text text-darken-4">Eid-ul-Fitr<i class="material-icons right">more_vert</i></span>
+	    	     <p>Muslims Festival</p>
+	    	   </div>
+	    	   <div class="card-reveal">
+	    	     <span class="card-title grey-text text-darken-4">Eid-ul-Fitr<i class="material-icons right">close</i></span>
+	    	     <p>Eid-ul-Fitr is one of the two major festivals of Muslim world. Bangladesh being a Muslim majority country, the joy and happiness of Eid is spread to all the citizens of the country, regardless of their religion. After one month of fasting durring Ramadan, Eid-ul-Fitr brings happiness to all the Muslim people in Bangladesh.<br><br>The Joy of Eid starts long before with shopping. People buy new dresses for themselves, their families, friends and fore families. Punjabi is the most favorite dress during Eid for men. For women, its shari and salwar kamiz. Eid gift is very traditional in the country as well. Girls and kids color their hands with b mehendib щhena leaves) before the Eid day.<br><br>In the Eid Day many people goes to graves of their relatives, specially parents to pray for them. Some people go to graves after the Eid prayer. Before the prayer people give a charity known as fitra. Many people distribute Zakat (donations) before the Eid prayer.People hug each other and exchange greetings after the prayer. This trend continues during the whole period of Eid, when they meet friends and relatives first time. The juniors do salam (greetings) to their elders and elders bless them with "Eidi" (new notes of money). Collecting Eidi is a very interesting part of the Eid celebration for kids.</p>
+	    	   </div>
+	    	 </div>
+	    </div>
+	    <div class="col s12 m6 l4 festivalCard">
+	    	<div class="card z-depth-4">
+	    	   <div class="card-image waves-effect waves-block waves-light">
+	    	     <img class="activator" src="image/EidUlAdha.jpg">
+	    	   </div>
+	    	   <div class="card-content">
+	    	     <span class="card-title activator grey-text text-darken-4">Eid-ul-Adha<i class="material-icons right">more_vert</i></span>
+	    	     <p>Muslims Festival</p>
+	    	   </div>
+	    	   <div class="card-reveal">
+	    	     <span class="card-title grey-text text-darken-4">Eid-ul-Adha<i class="material-icons right">close</i></span>
+	    	     <p>Eid-ul-Adha, also called the "Festival of Sacrifice", is the second most important religious festival of Muslims in Bangladesh. People also call it b Qurbani Eidb فin Bangladesh. This is the 10th day of jill-hajj, the 12th month of Islamic calendar. This festival is to commemorate the willingness of Prophet Ibrahim (a) to sacrifice his son as an act of submission to Allahb s command. Bangladeshi Muslims sacrifice their domestic animals like cows and goats during the Eid-ul-adha.<br><br>During the Eid-ul-Adha, Just after the prayer, wealthy people sacrifices domestic animals. This is called Qurbani (sacrifice). They distribute the meat among the poor , their relatives and neighbors. The half of the day, people remains very busy processing and distributing meats. The less wealthy people also take part in the festivity by visiting wealthy peopleb s house and help them in Qurbani.<br><br>This is Sunnah of taking sweet food before the Eid prayer. b Semaib сis a common food of Eid. Women prepare delicious noodles, pasta, chotpoti, Halim, biriyani, kebab, polao rice, roasts, and curry on the Eid day. Meat curry and khichuri is very famous during Eid-ul-Adha. Many people eat special parata with meat curry of the sacrificed animals. They also prepare many other sweets or special foods along with those common ones as per their ability</p>
+	    	   </div>
+	    	 </div>
+	    </div>
+
+	    <div class="col s12 m6 l4 festivalCard">
+	    	<div class="card z-depth-4">
+	    	   <div class="card-image waves-effect waves-block waves-light">
+	    	     <img class="activator" src="image/DurgaPuja.jpg">
+	    	   </div>
+	    	   <div class="card-content">
+	    	     <span class="card-title activator grey-text text-darken-4">Durga Puja<i class="material-icons right">more_vert</i></span>
+	    	     <p>Festival of Hinduism</p>
+	    	   </div>
+	    	   <div class="card-reveal">
+	    	     <span class="card-title grey-text text-darken-4">Durga Puja<i class="material-icons right">close</i></span>
+	    	     <p>Durga Puja, major festival of Hinduism, traditionally held for 10 days in the month of Ashvina (Septemberb October), the seventh month of the Hindu calendar. Durga Puja celebrates the victory of the goddess Durga over the demon king Mahishasura. It begins on the same day as Navratri, a nine-night festival celebrating the divine feminine.<br><br>Durga Pujab s first day is Mahalaya, which heralds the advent of the goddess. Celebrations and worship begin on Sasthi, the sixth day. During the following three days, the goddess is worshipped in her various forms as Durga, Lakshmi, and Sarasvati. The celebrations end with Vijaya Dashami (b Tenth Day of Victoryb ي when, amid loud chants and drumbeats, idols are carried in huge processions to local rivers, where they are immersed. That custom is symbolic of the departure of the deity to her home and to her husband, Shiva, in the Himalayas. Images of the goddess astride a lion, attacking the demon king Mahishasurab are placed at various pandals (elaborately decorated bamboo structures and galleries) and temples. Vijaya Dashami day is the national holyday in Bangladesh.</p>
+	    	   </div>
+	    	 </div>
+	    </div>
+	    <div class="col s12 m6 l4 festivalCard">
+	    	 <div class="card z-depth-4">
+	    	   <div class="card-image waves-effect waves-block waves-light">
+	    	     <img class="activator" src="image/roth.jpg">
+	    	   </div>
+	    	   <div class="card-content">
+	    	     <span class="card-title activator grey-text text-darken-4">Roth Jatra<i class="material-icons right">more_vert</i></span>
+	    	     <p>Festival of Hinduism</p>
+	    	   </div>
+	    	   <div class="card-reveal">
+	    	     <span class="card-title grey-text text-darken-4">Roth Jatra<i class="material-icons right">close</i></span>
+	    	     <p>Jagannath Roth is a chariot temple, a Roth, dedicated to the Hindu God Jagannath located in Dhamrai, Bangladesh. The annual Jagannath Roth Jatra is a famous Hindu festival attracting thousands of people. The Roth Jatra in Dhamrai is one of the most important events for the Hindu community of Bangladesh. Sri Jagannath (Lord of the World) is believed by the Hindus to be an incarnation of Lord Vishnu, one among the Holy Hindu Trinity of Gods (Brahma the creator, Vishnu the preserver, and Shiva the destroyer). Lord Jagannath is also believed to be a deity form of Lord Krishna.<br><br>The Roth festival, Roth Mela, is a month long, and connected with the Bengali calendar. It takes place during the Bengali month of Ashar. The date is fixed on the second quarter of the moon. Usually the time is during June, but sometimes it also takes place in July. The celebrations are held along the main road of Dhamrai. In addition to various stalls set up for sale of varieties of products, circus and puppet shows also come to provide entertainment to people from all walks of life and across religious faiths.</p>
+	    	   </div>
+	    	 </div>
+	    </div>
+	    <div class="col s12 m6 l4 festivalCard">
+	    	<div class="card z-depth-4">
+	    	   <div class="card-image waves-effect waves-block waves-light">
+	    	     <img class="activator" src="image/BuddhaPurnima.jpg">
+	    	   </div>
+	    	   <div class="card-content">
+	    	     <span class="card-title activator grey-text text-darken-4">Buddha Purnima<i class="material-icons right">more_vert</i></span>
+	    	     <p>Festival of Buddhist</p>
+	    	   </div>
+	    	   <div class="card-reveal">
+	    	     <span class="card-title grey-text text-darken-4">Buddha Purnima<i class="material-icons right">close</i></span>
+	    	     <p>Buddha Purnima, the biggest religious festival of the Buddhist community, is being celebrated today amid festivity and different programs in Dhaka and elsewhere in the country. The day is a national holyday in Bangladesh.<br><br>Like elsewhere in the world, the Buddhist community in Bangladesh, has chalked out different programs including colorful processions, puja, sanghadan, discussions and cultural functions to mark the day in a befitting manner. Lord Buddha was born on this day of full moon in 563 BC, attained enlightenment and passed away on the same day.<br><br>The celebrations will start with lighting of lamps and hoisting of the national and religious flags atop the Mohabihar and chanting of sacred verses from Tripitaka. Bangladesh Buddhist Federation (BBF) will organize day-long programs, including a discussion meeting, at the Merul Badda International Budda Bihar in Dhaka. The programs include puja and discussion.</p>
+	    	   </div>
+	    	 </div>
+	    </div>
+
+	    <div class="col s12 m6 l4 festivalCard">
+	    	<div class="card z-depth-4">
+	    	   <div class="card-image waves-effect waves-block waves-light">
+	    	     <img class="activator" src="image/Christmas3.jpg">
+	    	   </div>
+	    	   <div class="card-content">
+	    	     <span class="card-title activator grey-text text-darken-4">Christmas<i class="material-icons right">more_vert</i></span>
+	    	     <p>Festival of Christians</p>
+	    	   </div>
+	    	   <div class="card-reveal">
+	    	     <span class="card-title grey-text text-darken-4">Christmas<i class="material-icons right">close</i></span>
+	    	     <p>Christmas is known as 'Borodin' which means 'the big day' in Bengali. December 25th is a public holiday for Christmas in Bangladesh even though only about 0.3% of the population, of about 170 million people, are Christians. Happy or Merry Christmas in lots more languages.In big towns and cities, shops and hotels will have 'western' style Christmas decorations like fake snow and artificial Christmas Trees with lots of lights. Having a Christmas tree in your home is also becoming more popular, especially among Christians. More people are also exchanging Christmas cards.<br><br>Christians who live in big towns and cities often try and go home to their villages to spend Christmas with their families.<br><br>Catholic Christians will go to a Midnight Mass service. Christm"s morning church services are also popular with Christians. A way of decorating buildings for different festive occasions in Bangladesh are 'Nishan' (which means small flag). These are strings made of hundreds of small pink paper triangles.<br><br>Traditionally in Bengali churches, the men it on one side of the church and women sit on the other. Popular Christmas songs include "Aaj Shuvo Borodin bhai, aaj Shuvo Borodin" which means "Today is Happy Borodin, friend/brother, today is Happy Borodin".</p>
+	    	   </div>
+	    	 </div>
+	    </div>
+	 </div>
+		<h3 class="scrollspy center" id="Food">Foods & Drinks</h3><br><br>
+	 <div class="carousel" style="    margin-top: -51px;">
+	    <a class="carousel-item" href="#one!"><img src="image/kacchi.png">
+	    	<h4>Kacchi Biriyani</h4>
+	    </a>
+	    <a class="carousel-item" href="#two!"><img src="image/kabab.jpg">
+	    	<h4>Kabab</h4>
+	    </a>
+	    <a class="carousel-item" href="#one!"><img src="image/firni.jpg">
+	    	<h4>Firni-Jorda</h4>
+	    </a>
+	    <a class="carousel-item" href="#two!"><img src="image/fuchka.jpg">
+	    	<h4>Fuchka</h4>
+	    </a>
+	    <a class="carousel-item" href="#one!"><img src="image/pitha.jpg">
+	    	<h4>Pitha</h4>
+	    </a>
+	    <a class="carousel-item" href="#two!"><img src="image/bakorkhani.jpg">
+	    	<h4>Bakorkhani</h4>
+	    </a>
+	    <a class="carousel-item" href="#two!"><img src="image/doi.jpg">
+	    	<h4>Doi</h4>
+	    </a>
+	    <a class="carousel-item" href="#one!"><img src="image/balushai.jpg">
+	    	<h4>Balushai</h4>
+	    </a>
+	    <a class="carousel-item" href="#one!"><img src="image/roshmalai.jpg">
+	    	<h4>Roshmalai</h4>
+	    </a>
+	    <a class="carousel-item" href="#two!"><img src="image/chomchom.jpg">
+	    	<h4>Chomchom</h4>
+	    </a>
+	    <a class="carousel-item" href="#two!"><img src="image/Borhani.jpg">
+	    	<h4>Borhani</h4>
+	    </a>
+	    <a class="carousel-item" href="#two!"><img src="image/sevenColorTea.jpg">
+	    	<h4>Seven Colored Tea</h4>
+	    </a>
+	     </div><br><br>
+		<h3 class="scrollspy center" id="place">Places to Visit</h3><br><br>
+	 	<div class="card horizontal z-depth-4">
+	      <div class="card-image">
+	        <img src="image/dhaka.jpg">
+	        <span class="card-title">Dhaka</span>
+	      </div>
+	   <div class="card-stacked">
+	    <div class="card-tabs">
+	      <ul class="tabs tabs-fixed-width">
+	        <li class="tab"><a href="#test40">About</a></li>
+	        <li class="tab"><a href="#test50">How to go</a></li>
+	        <li class="tab"><a href="#test60">What to explore</a></li>
+	      </ul>
+	    </div>
+	    <div class="card-content grey lighten-4">
+	      <div id="test40"><p>Dhaka is the capital and largest city of Bangladesh. It is one of the largest and most densely populated cities in the world. Dhaka is divided into two parts called "Old Dhaka" and "New Dhaka". Old Dhaka is located on the banks of the Buriganga River and many ancient architecture present there, mostly from the Mughal Emperor time. Old Dhaka is famous for its variety of foods and amicable living of people of all religion in harmony.<br><br>New Dhaka is dazling city. It is also a place of mordern business as large number of corporate office and embassies are located in New Dhaka. Many mordern architecture and ultramordern city and shopping centers build in new Dhaka to make foreign people life more comfortable here. Metros are also underconstruction to remove current transportaniton and traffic problem.</p></div>
+	      <div id="test50"><p>Hazrat Shahjalal International Airport (formerly known as Zia International Airport) (IATA: DAC) is the primary airport serving both the city and the country. There are international flights available from most continents. Biman Bangladesh Airlines is the flag carrier of Bangladesh and is connected to approximately 18 international destinations, including London. Although, these services change frequently due to financial issues. Most flights to Dhaka depart from Istanbul, Dubai, Hong Kong, Singapore, Kuala Lumpur, Bangkok and Kolkata. There is also significant traffic from Middle Eastern cities including Muscat, Jeddah, Bahrain, Doha and Kuwait. Additionally, there are two more international airports in the Sylhet, a north-east divisional city, and Chittagong, the south-east and second largest city of Bangladesh, respectively. The Sylhet International Airport is called Osmani International Airport [code: ZYL] and Chittagong International Aiprot is called Shah Amanat International Airport [code: CGP]. These two international airports are also well connected with many parts of the world with direct flight from and to many Asian and Middle Eastern countries including China, Malaysia, UAE etc when Sylhet airport has direct flight from London.</p></div>
+	      <div id="test60"><p>Dhaka is a city of contrasts between old and new, rich and poor, industry and folk. From the concrete National Parliament House and ultramodern Bashundhara City, the largest shopping mall in South Asia, to the 17th Century Lalbagh Fort and the open markets along the city's side streets, many ancient architecture such as Ahsan Manjil, Dhakeshari temple, Panam City these contrasts vividly shape the city. Visit the many mosques, temples and museums for a taste of Bengali culture and history.<br><br>Whatch videos to know more about Dhaka City:<br><br><a href="https://youtu.be/WsFgfqF4uZQ">Travel Best Places of "Dhaka"</a><br><a href="https://youtu.be/WsFgfqF4uZQ">Explore "Dhaka", A city of Magic.</a><br><a href="https://youtu.be/dVaqYg90PIk">Bangladesh's city "Dhaka" comes to life.</a></p></div>
+	    </div>
+	  </div>
+	  </div>
+	 	<div class="card horizontal z-depth-4">
+	      <div class="card-image">
+	        <img src="image/coxsBazar.jpg">
+	        <span class="card-title">Cox's Bazar</span>
+	      </div>
+	   <div class="card-stacked">
+	    <div class="card-tabs">
+	      <ul class="tabs tabs-fixed-width">
+	        <li class="tab"><a href="#test4">About</a></li>
+	        <li class="tab"><a href="#test5">How to go</a></li>
+	        <li class="tab"><a href="#test6">What to explore</a></li>
+	      </ul>
+	    </div>
+	    <div class="card-content grey lighten-4">
+	      <div id="test4"><p>Cox's Bazar is a seaside town, a fishing port and district headquarters in Bangladesh. It is known as the longest continual natural beach on the planet (a whopping 125km). Miles of golden sand, towering cliffs, surfing waves, colorful pagodas, Buddhist temples and tribes, delightful seafood - this is Cox's Bazar, the tourist capital of Bangladesh. Which is considered by many as the world's longest natural sandy sea beach.</p></div>
+	      <div id="test5"><p>By air is the fastest way to travel Coxb s Bazar. Local lights to Coxb s Bazar are offered by Regent Airways, Novo Air and United Airways.<br><br>There is no direct train service from Dhaka to Coxb s Bazar. But if you crave for a train journey to Cox's Bazar, hop on one of the 5 express trains that leave from Dhaka towards Chittagong. From Chittagong you will have to get on a bus to reach your final destination though.<br><br>The intercity bus services connecting Cox's Bazar with Dhaka is one of the best that Bangldesh has to offer. More than 60 coaches of around 20 renowned companies leave Dhaka each day towards Cox's Bazar. Generally the first coach is at around 9am and the last is around 11:30pm.</p></div>
+	      <div id="test6"><p>What you can do when you are in beach?<br><br>Swim in the sea surf sandy beach. The hotels usually don't mind if you walk completely soaked through the lobby but it's courteous to have shower at the designated place, outside the lobby. Be careful about the waves and the receding stream, even if you are a good swimmer. Check for the "Green Flag" hoisted insted of "Red Flag" at the life saving watch tower.<br><br>Drink green coconut, Cox's Bazar is famous for green coconut and the mountain's Banana at cheap. But be mindful not to liter the beach by throwing garbage on the beach and please do Keep beach clean when leaving.<br><br>Staying at the beach after dark,not being risky due to constant presence of Tourist Police in the beach up to late night.<br><br>Other attractions for visitors are conch shell market, tribal handicraft, salt and prawn cultivation.</p></div>
+	    </div>
+	  </div>
+	  </div>
+	   <!--  </div>
+
+	    <div class="col s12 m6 l6"> -->
+	    <div class="card horizontal z-depth-4">
+	      <div class="card-image">
+	        <img src="image/stMartin.jpg">
+	        <span class="card-title">St. Martin's Island</span>
+	      </div>
+	   <div class="card-stacked">
+	    <div class="card-tabs">
+	      <ul class="tabs tabs-fixed-width">
+	        <li class="tab"><a href="#test14">About</a></li>
+	        <li class="tab"><a href="#test15">How to go</a></li>
+	        <li class="tab"><a href="#test16">What to explore</a></li>
+	      </ul>
+	    </div>
+	    <div class="card-content grey lighten-4">
+	      <div id="test14"><p>St. Martin's is a tropical cliche and the only coral island in Bangladesh, with beaches fringed with coconut palms and laid-back locals. It is possible to walk around St Martin's in a day since it measures only 8 km, shrinking to about 5 km during high tide. Most of the island's 7000 inhabitants live primarily from fishing, and between October and April, fishermen from neighbouring areas bring their catch to the island's temporary wholesale market also most of the tourists visit this place mostly in winter.</p></div>
+	      <div id="test15"><p>Getting to Saint Martins Island by bus is a two-step process. First you'll need to travel to Teknaf which is the Southern most district of Bangladesh on the very southern tip, sandwiched up against Myanmar.<br><br>By plane you have to reach firstly in Cox's Bazar from Dhaka/Chittagong (Inter-country) by Biman Bangladesh Airlines or with Private Airlines such as Regent Airlines, United Airways, Best Air etc.<br><br>Getting to Saint Martins Island by bus is a two-step process. First you'll need to travel to Teknaf which is the Southern most district of Bangladesh on the very southern tip, sandwiched up against Myanmar. One can come to Teknaf by bus from Dhaka, Chittagong and Cox's Bazar.</p></div>
+	      <div id="test16"><p>You can do Oceanic Scuba Diving in St. Matin's Qcean Scuba Driving Center. This is the only dive operation in the country, and is run by a friendly group of ex-navy divers.<br><br>In the southeast of the island (off Chera Dwip) you can enjoy nice boat ride and the most activity you could hope for during your stay on the island. Walkthrough the beach to the southern island of Chera Dwip, accessible on foot along a narrow strip of land at low tide, or via a boat shuttle at high tide.</p></div>
+	    </div>
+	  </div>
+	  </div>
+
+	  <div class="card horizontal z-depth-4">
+	      <div class="card-image">
+	        <img src="image/sundarban.jpg">
+	        <span class="card-title">Sundarban</span>
+	      </div>
+	   <div class="card-stacked">
+	    <div class="card-tabs">
+	      <ul class="tabs tabs-fixed-width">
+	        <li class="tab"><a href="#test24">About</a></li>
+	        <li class="tab"><a href="#test25">How to go</a></li>
+	        <li class="tab"><a href="#test26">What to explore</a></li>
+	      </ul>
+	    </div>
+	    <div class="card-content grey lighten-4">
+	      <div id="test24"><p>The Sundarban is the largest single block of tidal halophytic mangrove forest in the world. It is a UNESCO World Heritage Site, most of which is situated in Bangladesh with the remainder in India. The Bengali name 'Sundarban' means "beautiful forest". Sundarbans South, East and West are three protected forests in Bangladesh. This region is densely covered by mangrove forests, and is one of the largest reserves for the Bengal tiger. Hunting is prohibited by law in the country for the preservation of wildlife.</p></div>
+	      <div id="test25"><p>Safaris are available from Dhaka, Khulna. Ranging from an overnight trip to a week, and are probably the best way to experience the Sundarbans.<br><br>Organizing your own trip from Munsiganj-Satkhira, Mongla or Khulna is possible (and cheaper, if you're a shrewd negotiator), but questionably worth the hassle. You need a permit from the Divisional Forest Office in Khulna. With permit in hand, it's possible to hire a boat from Mongla or Dhangmari to get you to Hiron Point. From Hiron Point you will have to hire a guide to take you into the park.<br><br>You have to rely on boats for visiting the various tourist spots of the Sunderbans. You can also hire your own boat but the charges are pretty steep. However, in case you wish to move around on your own, make sure to hire a guide or else the boatsmen may take you for a ride.</p></div>
+	      <div id="test26"><p>Apart from visiting the tourist destinations, you may also take some time-out to go to a nearby village to see the life-style of the local people and talk to them to have an insight into their lives. In Bangladesh, to visit Sundarban or Sundarbans, tourists need inquiry to tour operator for arranging tours. Tourists can not travel by themselves.<br><br>Some handcrafted articles made by the local people and collecting honey from forest could be good mementos to bring back home.<br><br>It is wise to carry own drinking water or carry water purifier tablet/liquid drop and stay safe as with the rest of tropical Asia, mosquito-borne diseases including (but not limited to) Malaria and Dengue Fever are present within the Sundarbans at varying levels dependent on the season (rainy season representing the greatest risk.). It is importent to follow all travel rules provide by Divisional Forest Office while travel arround the Sundarban.<br><br>Best time to visit the Sundarbans is from November to March. Exciting honey collection season is during April-May.</p></div>
+	    </div>
+	  </div>
+	  </div>
+	   <!--  </div>
+
+	    <div class="col s12 m6 l6"> -->
+		<div class="card horizontal z-depth-4">
+	      <div class="card-image">
+	        <img src="image/sajekVally.jpg">
+	        <span class="card-title">Sajek Valley</span>
+	      </div>	  
+	   <div class="card-stacked">
+	    <div class="card-tabs">
+	      <ul class="tabs tabs-fixed-width">
+	        <li class="tab"><a href="#test214">About</a></li>
+	        <li class="tab"><a href="#test215">How to go</a></li>
+	        <li class="tab"><a href="#test216">What to explore</a></li>
+	      </ul>
+	    </div>
+	    <div class="card-content grey lighten-4">
+	      <div id="test214"><p>Sajek Valley is an emerging tourist spot in Bangladesh situated among the hills of Kasalong range of mountains in Sajek union, Baghaichhari Upazila in Rangamati District. The valley is 1800 feet (550 m) above sea level. Sajek valley is known as the Queen of Hills & Roof of Rangamati.<br>Sajek was unexplored for a long time and it emerged as a tourist spot owing to it's natural environment. The place does not have modern tourist facilities and tourists visit for the nature and culture of the place.</p></div>
+	      <div id="test215"><p>The valley is mainly in Rangamati District, but it would be easy for the tourists to reach there from Khagrachhari. The route is Khagrachhari - Dighinala Bazaar - Bagaihat Bazaar - Machalong Haat and then Sajek. It is around 75 km from Khagrachhari. The distance between Dighinala and Sajek is 52 km. Bus is the only transport to reach Rangamati District from Dhaka, after that several local transport will be found. Main transportation of that area is "Chander Gari" which is like a four wheel jeep. Tourists can also go to Sajek from Rangamati by engine vessel. It takes 5-6 hours in that route.</p></div>
+	      <div id="test216"><p>There is no word which describes the beauty of Sajek Valley. The Dense forest, mountains, grasslands, hilly areas have created an undefined beauty. When you are in the top picks Sajek Valley, you will see the clouds are flying near you and feel like you can touch it!<br>This awesome moment will make you feel the view of heaven on the earth. The excitement of this can't be written.<br><br>While traveling the Sajek, you will see the thrilling beauty of nature. The roads you are going to pass through, seems like a snake. There are many small rivers on the way of the journey. The weather of Sajek changed frequently from Sunny moment to dense rain.<br><br>There are several resorts available in Sajek Valley. These resorts are governed by Bangladesh Army and Bangladesh Border Guard.The food and accommodation are also very cheap there.</p></div>
+	    </div>
+	  </div>
+	  </div>
+	    <div class="card horizontal z-depth-4">
+	      <div class="card-image">
+	        <img src="image/Sylhet.jpg">
+	        <span class="card-title">Jaflong, Sylhet</span>
+	      </div>
+	   <div class="card-stacked">
+	    <div class="card-tabs">
+	      <ul class="tabs tabs-fixed-width">
+	        <li class="tab"><a href="#test34">About</a></li>
+	        <li class="tab"><a href="#test35">How to go</a></li>
+	        <li class="tab"><a href="#test36">What to explore</a></li>
+	      </ul>
+	    </div>
+	    <div class="card-content grey lighten-4">
+	      <div id="test34"><p>The Sylhet Valley is formed by a beautiful, winding pair of rivers named the Surma and the Kushiara both of which are fed by innumerable hill streams from the north and the south. The valley has good number of haors which are big natural depressions. During winter, these haors are vast stretches of green land, but in the rainy season they turn into turbulent seas.</p></div>
+	      <div id="test35"><p>By plane, all major domestic carriers, Biman Air, United Airlines and Regent Airways. Most of the flights in Sylhet are destined to the capital and largest city of Bangladesh, Dhaka.<br><br>By bus, there are many luxury coach and bus services from Dhaka to Sylhet. These services are available from 7:30 am to 10:30 pm.<br><br>By train, there are train services from Dhaka, Chittagong and Comilla to Sylhet everyday. From Dhaka, there are three trains named Joyontika, Parabat and Upoban depart at morning, noon and evening.There is a new train named Kalni depart at afternoon from Dhaka. From Dhaka, it takes 8-9 hours.<br><br>Local Transport, rickshaws are a common mode of transportation throughout the small town, along with the CNG's (auto-rickshaws). Don't take buses as they are usually unreliable for foreign tourists.</p></div>
+	      <div id="test36"><p>Whole Sylhet is cover by natural beauty. It is difficult just to recommend one or two place. However these are some list of populer places to vist.<br><br><b>Tamabil-Jaflong: </b>Situated amidst splendid panorama, Tamabil is a border outpost on Sylhet-Shilong Road about 55 km. away from Sylhet town. Besides enchanting views of the area one can also have a glimpse of the waterfalls across the border from Tamabil. Jaflong is also a scenic spot nearby amidst tea gardens and rate beauty of rolling stones from hills.The natural view has gotten effected due to rock quarring. It's located in the Bangladesh-India border.<br><br><b>Sree Mangal: </b> Sree Mangal is famous for the largest tea gardens of the world covered by lush green carpet. One can have a look into the spectacular tea processing at Tea Research Institute. Bangladesh produces and exports a large quantity of high quality tea every year. Most of the tea estates are in SreeMangal. It is called "The land of two leaves and a bud". It is also called camellia, green carpet or Tea Mountain. There are a lot of tea estates including the largest one in the world. The terraced tea garden, pineapple, rubber and lemon plantations from a beautiful landscape. It is known as the tea capital in Bangladesh. Just offer entering into the tea estates the nice smells and green beauty will lead you many kilometres away.<br><br><b>Lawacherra Rain Forest: </b>Lawacherra Rain Forest is one of the important & well-reserved forests in Bangladesh. Here visitor may see gibbons swimming through the trees and birds like bee-eater owls parrot. It is a good habitant of Deer, leopard, wild chicken, squirrel, and python. Don't miss it especially if you are bird watcher. The terrain is hilly and vegetation is fairly thick. Only one rare Chloroform tree of Asia is here and a prime attraction of travel. One needs to take permission from the forest office to visit the forest.<br><br><b>Ratargul Swamp Forest: </b> Ratargul Swamp Forest is a freshwater swamp forest located in Gowain River, Fatehpur Union, Gowainghat, Sylhet, Bangladesh. It is the only swamp forest located in Bangladesh and one of the few freshwater swamp forest in the world.Tourists mostly go to see the forest in monsoon. One needs to take permission from the forest office to visit the forest. A local boat needs to be hired to travel through the swamp forest.There is a building tower inside the forest.If you go up there,you can see the whole view of the forest. <br><br><b>Madhabkunda: </b> Madhabkunda surrounded by lush tea estates and full of waters lilies is a unique one. Magurchara ruined gas & Oil reserved field, which was inadvertently blown up while digging 3 years ago and was burning a 500 feet height for more than 3 months. A lot of burnt trees now carrying the symbols of disaster. Ever where a lot of rubber & lemon plantation form a beautiful landscape. And you can have a visit to Madhobkundo waterfall.</p>
+		</div>
+	    </div>
+	  </div>
+	  </div>
+	   <!--  </div>
+
+	    <div class="col s12 m6 l6"> -->
+	    <div class="card horizontal z-depth-4 ">
+	      <div class="card-image">
+	        <img src="image/paharpur.jpg">
+	        <span class="card-title">Paharpur Buddha Bihar</span>
+	      </div>
+	   <div class="card-stacked">
+	    <div class="card-tabs">
+	      <ul class="tabs tabs-fixed-width">
+	        <li class="tab"><a href="#test314">About</a></li>
+	        <li class="tab"><a href="#test315">How to go</a></li>
+	        <li class="tab"><a href="#test316">What to explore</a></li>
+	      </ul>
+	    </div>
+	    <div class="card-content grey lighten-4">
+	      <div id="test314"><p>Paharpur Buddha Bihar, is a World Heritage Site, Declared by UNESCO in 1985. This can be the largest Buddhist Bihara from the world. It is located in Badalgachi Upazila of Naogaon district. Somapura Mahavihara, covered 27 acres. This is located at the Paharpur, union of Naogaon district in Rajshahi Division from Bangladesh. This place is also known as Sompur Buddha Bihar. People called this as Pahar as it looks like a hill (in bengali it means Pahar), from there the place is known as Paharpur.</p></div>
+	      <div id="test315"><p>Sompur Bihar at Paharpur is about 282 km by road from Dhaka. It will take about 6.5 hours to reach Paharpur by bus or taxi or private car if no major stops are made along the way. If one starts from Dhaka, the route shall be Dhaka - Savar - Chandra - Tangail - Jamuna Bridge - Bogura - Naogaon - Badalgashi - Paharpur. The best way to tour the site is to first reach Naogaon and stay there or reach Badalgacchi and stay there in Dakbanglo.<br>To reach Naogaon most convenient options is the "Bangladesh Railway", from "Santahar" Railway Station. You can find numerous trains from "Santahar" to various district in Northern & Southern Bangladesh. Using First class ticket is a very convenient way for foreign tourists.</p></div>
+	      <div id="test316"><p>You can visit Varendra Research Museum. This was the first museum of Bangladesh.This museum has a rich and ancient collection,almost three thousands of objects of Paharpur, Mohasthangar and Mohenjodaro and also of 16th to 19th century A.D. Next you can start your journey for Puthia Temple Complex. Here you can visit The Shiva Temple, Jagannath Temple, Dol Mandir, The Puthia Rajbari or Palace of the Raja of Puthia, Pancharatna Gobinda Temple and Bara Ahnik Mandir. You also can visit Bagha Mosque. Bagha Mosque, is the Shahi (grand) mosque of Bagha,the most beautifully decorated mosque built in the independent sultanate period of Bengal by Nasrat Shah,the Sultan of independent Bengal, in 1523-24, the mosque is well known for its depiction on the banknote of fifty taka.</p></div>
+	    </div>
+	  </div>
+	  </div>
+	  <!--</div> -->  
+
+</div>
+<!-- Footer -->
+	<footer class="page-footer blue-grey darken-3">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 m6 s12">
+					<div class="input-field col s6">
+		          		<input id="name" type="text" class="validate" style="color: #fff">
+		          		<label for="name">Full Name</label>
+					</div>
+					<div class="input-field col s6">
+		          		<input id="email" type="email" class="validate" style="color: #fff">
+		          		<label for="email">Email</label>
+					</div>
+					<div class="input-field col s12">
+			          	<textarea id="textarea1" class="materialize-textarea" style="color: #fff"></textarea>
+			      		<label for="textarea1">Text</label>
+        			</div>
+        			<div class="input-field col s12">
+	        			<button class="btn waves-effect waves-light blue-grey darken-1" type="submit" name="action" style="text-transform: none;font-family: 'Bree Serif', cursive;">Send Email
+	    					<i class="material-icons right">send</i>
+	  					</button>
+	  				</div>
+				</div>
+				<div class="col l4 m4 offset-l2 offset-m2 s12">
+					<h5 class="white-text">Links</h5>
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+						<li><a class="grey-text text-lighten-3" href="index.html#service">Service</a></li>
+						<li><a class="grey-text text-lighten-3" href="company.html">Company Profile</a></li>
+						<li><a class="grey-text text-lighten-3" href="aboutBangladesh.html">About Bangladesh</a></li>
+						<li><a class="grey-text text-lighten-3" target="_blank" href="https://recruit-bd.colgis.jp/jobs">Career</a></li>
+						<li><a class="grey-text text-lighten-3" href="index.html#contact">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright blue-grey darken-4">
+			<div class="container center">
+				© 2019 Colgis BD Ltd. <br>All Rights Reserved.
+		</div>
+	</footer>
+
+
+
+
+
+
+</body>
+
+<!-- Mirrored from colgis-bd.com/aboutBangladesh.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Oct 2022 16:49:50 GMT -->
+</html>
+<script src="../code.jquery.com/jquery-3.1.1.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="../cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script type="text/javascript">
+	$(window).on("load",function() {
+
+		dofirst()
+	});
+
+
+	;(function(){
+		function id(v){ return document.getElementById(v); }
+		function loadbar() {
+			var ovrl = id("overlay"),
+			prog = id("progress"),
+			stat = id("progstat"),
+			img = document.images,
+			c = 0,
+			tot = img.length;
+			if(tot == 0) return doneLoading();
+
+			function imgLoaded(){
+				c += 1;
+				var perc = ((100/tot*c) << 0) +"%";
+				prog.style.width = perc;
+				stat.innerHTML = "Loading "+ perc;
+				if(c===tot) return doneLoading();
+			}
+			function doneLoading(){
+				ovrl.style.opacity = 0;
+				setTimeout(function(){ 
+					ovrl.style.display = "none";
+				}, 1500);
+			}
+			for(var i=0; i<tot; i++) {
+				var tImg     = new Image();
+				tImg.onload  = imgLoaded;
+				tImg.onerror = imgLoaded;
+				tImg.src     = img[i].src;
+			}    
+		}
+		document.addEventListener('DOMContentLoaded', loadbar, false);
+	}());
+	$(document).ready(function(){
+		$('.sidenav').sidenav();
+		$('.dropdown-trigger').dropdown();
+		$('.scrollspy').scrollSpy();
+    	$('.slider').slider();
+    	$('.collapsible').collapsible();
+    	$('.carousel').carousel();
+    	$('.tabs').tabs();
+	});
+
+	/*$(document).ready(function() {
+
+		var favImage = ["image/azomi.png", "image/mizo.png"];
+		var nameImage = ["Yasutaka Azumi", "Tatsuya Mizoguchi"];
+		var deg = ["Director", "CEO & President"];
+		var commets = [
+		"We are a software development company that can communicate in Japanese and English in Dhaka,<br> Bangladesh. By developing systems with the Japan - Bangladesh cooperative team,<br> we can develop high quality systems with low development cost.",
+		"We are a software development company that can communicate in Japanese and English in Dhaka,<br> Bangladesh. By developing systems with the Japan - Bangladesh cooperative team,<br> we can develop high quality systems with low development cost."
+		];
+		var i=0;
+		setInterval(function() {
+			$('#companyProfileImage').css('margin-left','50px');
+			$('#company').css('margin-left','-50px');
+			$('#deg').css('margin-left','-50px');
+			$('#commets').css('margin-left','-50px');
+
+
+
+
+			$('#companyProfileImage').attr('src',favImage[i]);
+			$('#company').html(nameImage[i]);
+			$('#deg').html(deg[i]);
+			$('#commets').html(commets[i]);
+			i = i+1;
+			if(i == favImage.length){
+				i = 0;
+			}
+			$("#companyProfileImage").animate({'margin-left':'0px'},1000)
+			$("#company").animate({'margin-left':'6%'},1000)
+			$("#deg").animate({'margin-left':'6%'},1000)
+			$("#commets").animate({'margin-left':'6%'},1000)
+		},5000);
+	});*/
+
+
+	function dofirst(){
+		if ($(window).width() > 767) {
+			var maxHeightRecruit = Math.max.apply(null, $(".festivalCard").map(function ()
+			{
+			    return $(this).height();
+			}).get());
+			$(".festivalCard").css('height',Math.round(maxHeightRecruit) )
+		}	
+
+		if ($(window).width() > 760) {
+			var maxHeightRecruit = Math.max.apply(null, $(".horizontal>div>img").map(function ()
+			{
+			    return $(this).height();
+			}).get());
+			$(".horizontal>div>img").css('height',Math.round(maxHeightRecruit) );
+			$(".card-stacked").css('max-height',Math.round(maxHeightRecruit) );
+			$(".card-stacked>.card-content").css('overflow-y', 'scroll');
+		}	
+
+		
+
+		if ($(window).width() < 420) {
+			$(".horizontal").removeClass("horizontal");
+			console.log("im in");
+		}	
+	}
+
+</script>
+

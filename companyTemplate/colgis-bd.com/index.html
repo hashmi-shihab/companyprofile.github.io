@@ -1,0 +1,472 @@
+﻿<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from colgis-bd.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Oct 2022 16:42:57 GMT -->
+<head>
+	<title>Home page | Clinic Net Shop BD Ltd. </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="css/homepage.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif|Bree+Serif|Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="icon" href="image/clinicNetLogo.png" type="image/png">
+	<link rel="stylesheet" href="../use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+</head>
+<body>
+	
+	<style type="text/css">
+	#overlay{
+		position:fixed;
+		z-index:99999;
+		top:0;
+		left:0;
+		bottom:0;
+		right:0;
+		background:rgba(0,0,0,0.9);
+		transition: 1s 0.4s;
+	}
+	#progress{
+		height:1px;
+		background:#fff;
+		position:absolute;
+		width:0;                /* will be increased by JS */
+		top:50%;
+	}
+	#progstat{
+		font-size:0.7em;
+		letter-spacing: 3px;
+		position:absolute;
+		top:50%;
+		margin-top:-40px;
+		width:100%;
+		text-align:center;
+		color:#fff;
+	}
+
+	.flip-card-back ul{
+		list-style: disc;
+    	margin: 0px 10px 5px 30px;
+	}
+
+	.flip-card-back ul li{
+		list-style-type: disc !important;
+		text-align: justify;
+	}
+	.serve a{
+		color: #37474f;
+		transition: 0.3s;
+	}
+	.serve:hover a{
+		color: #039be5;
+	}
+
+	.cont a{
+		color: #37474f;
+		transition: 0.3s;
+	}
+	.cont:hover a{
+		color: #039be5;
+	}
+	.social-f i:hover{
+		color: #3b5998;
+		transition: 0.3s;
+	}
+	.social-t i:hover{
+		color: #38A1F3;
+		transition: 0.3s;
+	}
+	.social-l i:hover{
+		color: #0077B5;
+		transition: 0.3s;
+	}
+</style>
+<div id="overlay">
+	<div id="progstat"></div>
+	<div id="progress"></div>
+</div>
+<div class="navbar-fixed scrollspy" id="home">
+	<!--<div class="news-marquee">
+		<marquee direction="scroll" scrollamount="5">Currently, all staffs of Colgis BD Ltd. are working from home due to global corona crisis. When this pandemic is under control, we are planning to rent another office for employees.</marquee>
+	</div>-->
+	<nav class="blue-grey darken-3">
+		<div class="nav-wrapper">
+			<a href="index.html" class="brand-logo" style="width: 220px;">
+				<img src="image/clinicNetLogo.png" style="height: 60px"> <span class="logotext" style=""> Clinic EC</span>
+			</a>
+			<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#service">Service</a></li>
+				<li><a href="company.html">Company Profile</a></li>
+				<!--<li><a href="aboutBangladesh.html">About Bangladesh</a></li>
+				<li><a target="_blank" href="https://recruit-bd.colgis.jp/jobs">Career</a></li>-->
+				<li><a href="#contact">Contact Us</a></li>
+				<!--<li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><img src="image/en.png" style="width: 30px;margin: 0 -15px -10px 0;"><i class="material-icons right">arrow_drop_down</i></a></li>-->
+			</ul>
+		</div>
+	</nav>
+</div>
+<ul id="slide-out" class="sidenav">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="#service">Service</a></li>
+	<li><a href="company.html">Company Profile</a></li>
+	<!--<li><a href="aboutBangladesh.html">About Bangladesh</a></li>
+	<li><a target="_blank" href="https://recruit-bd.colgis.jp/jobs">Career</a></li>-->
+	<li><a href="#contact">Contact Us</a></li>
+</ul>
+<!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
+
+<!-- Dropdown Structure -->
+<!--<ul id="dropdown1" class="dropdown-content" >
+	<li><a href="#!"><img src="image/jp.png" style="width: 30px;margin: 0 -15px -10px 0;"></a></li>
+	<li class="divider"></li>
+	<li><a href="#!"><img src="image/bn.png" style="width: 30px;margin: 0 -15px -10px 0;"></a></li>
+	<li class="divider"></li>
+</ul>-->
+
+
+<header class="v-header container">
+	<div class="fullscreen-video-wrap">
+		<!--  https://www.videvo.net/video/typing-on-computer-white-bg/4475/ -->
+		<!-- DO NOT USE THIS VIDEO, I JUST NEEDED A HOSTED VIDEO FOR THIS CODEPEN> USE THE ONE ABOVE -->
+		<video  autoplay muted loop>
+			<source src="video/background.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div class="header-overlay"></div>
+		<div class="header-content text-md-center">
+			<h1 style="font-family: 'Lobster', cursive;">Pioneering the future of Bangladesh!</h1>
+			<p style="text-align:justify;font-family: 'Bree Serif', cursive;">We are a software development company that can communicate in Japanese and English in Dhaka, Bangladesh. By developing systems with the Japan - Bangladesh cooperative team, we can develop high quality systems with low development cost.</p>
+			<!-- <a class="btn">Find Out More</a> -->
+		</div>
+	</header><br><br>
+	<h3 class="scrollspy center" id="service">SERVICES</h3><br><br><br>
+	<div class="container" >
+		<div class="row" style="color: #37474f;">
+			<div class="col l3 m3 s12 center serve" >
+				<a href="webshowcase.html">
+					<i class="material-icons large">web</i><br><h6>Web Development</h6>
+				</a>
+			</div>
+			<div class="col l3 m3 s12 center serve">
+				<a href="webshowcase.html">
+					<i class="material-icons large">android</i><br><h6>App Development</h6>
+				</a>
+			</div>
+			<div class="col l3 m3 s12 center serve">
+				<a href="webshowcase.html">
+					<i class="material-icons large">store</i><br><h6>WMS</h6>
+				</a>
+			</div>
+			<div class="col l3 m3 s12 center serve">
+				<a href="webshowcase.html">
+					<i class="material-icons large">bug_report</i><br><h6>Quality Assurance</h6>
+				</a>
+			</div>
+		</div>
+			<br>
+			<h3 class="scrollspy center" >OUR PLATFORMS</h3><br><br><br>
+		<div class="row">
+
+			<div class="col l12 m12 s12">
+				<div class="row">
+					<div class="col l4 m4 s12">
+						<div class="flip-card">
+							<div class="flip-card-inner">
+								<div class="flip-card-front valign-wrapper">
+									<h3 class="hide-on-med-only center">OS</h3> 
+									<h3 class="flow-text hide-on-small-only hide-on-large-only center">OS</h3> 
+
+								</div>
+								<div class="flip-card-back ">
+									<h6>PC:</h6>
+									<ul>
+										<li>Windows</li> 
+										<li>Linux</li> 
+										<li>MacOS</li> 
+									</ul>
+									<h6>Mobile:</h6>
+									<ul>
+										<li>Android</li>
+										<li>iOS</li> 
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col l4 m4 s12">
+						<div class="flip-card">
+							<div class="flip-card-inner">
+								<div class="flip-card-front valign-wrapper">
+									<h3 class="hide-on-med-only center">Language</h3> 
+									<h3 class="flow-text hide-on-small-only hide-on-large-only center">Language</h3> 
+								</div>
+								<div class="flip-card-back " style="padding-top: 0px !important; ">
+									<!-- <h6>Markup Language:</h6>
+									<ul>
+										<li>HTML5 CSS3</li>
+									</ul> -->
+									<h6>Programing Language:</h6>
+									<ul>
+										<li>PHP</li> 
+										<li>JavaScript</li> 
+										<li>C++</li> 
+										<li>Java</li> 
+										<li>Python</li>
+									</ul>
+									<h6>Database:</h6>
+									<ul>
+										<li>PostgreSQL</li> 
+										<li>MySQL</li>
+										<li>NoSQL</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col l4 m4 s12 ">
+						<div class="flip-card">
+							<div class="flip-card-inner">
+								<div class="flip-card-front valign-wrapper ">
+									<h3 class="hide-on-med-only center">Framework</h3> 
+									<h3 class="flow-text hide-on-small-only hide-on-large-only center">Framework</h3> 
+								</div>
+								<div class="flip-card-back ">
+									<!--<h6>CSS Frameworks:</h6>
+									<ul>
+										<li>Bootstrap</li>
+										<li>Materialize</li>
+									</ul> -->
+									<h6>PHP Frameworks:</h6>
+									<ul>
+										<li>Laravel</li>
+									</ul> 
+									<h6>JS Frameworks:</h6>
+									<ul>
+										<li>Vue</li>
+										<li>React</li>
+										<li>Node</li>
+									</ul>
+									<h6>PYTHON Frameworks:</h6>
+									<ul>
+										<li>Django</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+	</div>
+
+
+
+	<br>
+	<br>
+	<br>
+	<br>
+
+
+
+
+
+	<!--<div class="  memberDiv " >
+		<div class="white-text memberText" >
+			<h3 class="scrollspy"   id="company">Tatsuya <br class='hide-on-med-and-up'>Mizoguchi</h3>	
+			<h5 id="deg">CEO, Colgis BD</h5>	
+			<p class="hide-on-small-only"  id="commets">We are a software development company that can communicate in Japanese and English in Dhaka,<br> Bangladesh. By developing systems with the Japan - Bangladesh cooperative team,<br> we can develop high quality systems with low development cost.</p>
+		</div>
+
+		<img  src="image/mizo.png" id="companyProfileImage" alt="" style="margin-left: 50px">
+	</div>-->
+	<br>
+	<br>
+	<br >
+	<h3 class="scrollspy center " id="contact">CONTACT US</h3><br><br><br>
+	<div class="container">
+		<div class="row">
+			<div class="col l6 m6 s12" style="color: #263238; font-family: 'Bree Serif', cursive;		">
+				<div class="row " ><br>
+					<div class="col s1"><i class="material-icons">location_on</i></div>
+					<div class="col s11">Block: D, Road: 7, Bashundhara R/A, Dhaka 1212, Bangladesh.</div>
+				</div>
+				<div class="row">
+					<div class="col s1"><i class="material-icons">phone</i></div>
+					<div class="col s11 cont"><a href="tel:+8801521218373" class="">(+88) 01521218373</a></div>
+				</div>
+				<div class="row">
+					<div class="col s1"><i class="material-icons">mail</i></div>
+					<div class="col s11 cont"><a href="mailto:info@colgis-bd.com" class="">info@colgis-bd.com</a></div>
+				</div>
+				<!--<div class="row">
+					<div class="col s1"><i class="material-icons fab fa-facebook-square" style="margin-left: 0.15rem;"></i></div>
+					<div class="col s11 cont"><a href="https://www.facebook.com/colgisBD" class="">www.facebook.com/colgisBD</a></div>
+				</div>-->
+				<hr>
+				<!-- <div class="col s12 center">
+					<a href="#" class="social-f" style="color: #263238;font-size:35px;margin-right: 40px"><i class="fab fa-facebook-f"></i></a>
+					<a href="#" class="social-t" style="color: #263238;font-size:35px;margin-right: 40px"><i class="fab fa-twitter"></i></a>
+					<a href="#" class="social-l" style="color: #263238;font-size:35px;"><i class="fab fa-linkedin-in"></i></a>
+				</div> -->
+			</div>
+			<div class="col l6 m6 s12">
+				<div class="mapouter">
+					<div class="gmap_canvas">
+					<!--<iframe width="100%"  height="221px" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.5221653186245!2d90.36155861429792!3d23.80002419279721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0dac2c0f72f%3A0xbdbac0c2a0702c8a!2sSahara%20Plaza%2C%20750%2Fa%20Kamal%20Soroni%20Rd%2C%20Dhaka%201216!5e0!3m2!1sen!2sbd!4v1636095475463!5m2!1sen!2sbd" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>-->
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29199.778750295067!2d90.43680292086144!3d23.81958246690546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c62fce7d991f%3A0xacfaf1ac8e944c05!2sBasundhara%20Residential%20Area%2C%20Dhaka%2C%20Bangladesh!5e0!3m2!1sen!2sus!4v1665595131833!5m2!1sen!2sus" width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<a href="https://www.embedgooglemap.net/"></a>
+				</div>
+				<style>.mapouter{text-align:right;height:221px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:221px;width:100%;}</style>
+			</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+
+	<footer class="page-footer blue-grey darken-3">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<!--<form action="https://formspree.io/f/mqkjbnnj" method="post" role="form">-->
+					<form action="https://api.web3forms.com/submit" method="post" role="form">
+						<input type="hidden" name="access_key" value="3d699b78-3f51-4d03-9e8c-9e437aec32bb">
+						<div class="input-field col s6">
+							<input id="name" name="name" type="text" class="validate" style="color: #fff" required>
+							<label for="name">Full Name</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="email" name="email" type="email" class="validate" style="color: #fff" required>
+							<label for="email">Email</label>
+						</div>
+						<div class="input-field col s12">
+							<textarea id="textarea1" name="textarea1" class="materialize-textarea" style="color: #fff" required></textarea>
+							<label for="textarea1">Text</label>
+						</div>
+						<input type="hidden" name="redirect" value="https://recruit-bd.colgis.jp/jobs">
+						<div class="input-field col s12">
+							<button class="btn waves-effect waves-light blue-grey darken-1" type="submit" style="text-transform: none;font-family: 'Bree Serif', cursive;">Send Email
+								<i class="material-icons right">send</i>
+							</button>
+						</div>
+					</form>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="white-text">Links</h5>
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+						<li><a class="grey-text text-lighten-3" href="#service">Service</a></li>
+						<li><a class="grey-text text-lighten-3" href="company.html">Company Profile</a></li>
+						<!--<li><a class="grey-text text-lighten-3" href="aboutBangladesh.html">About Bangladesh</a></li>
+						<li><a class="grey-text text-lighten-3" target="_blank" href="https://recruit-bd.colgis.jp/jobs">Career</a></li>-->
+						<li><a class="grey-text text-lighten-3" href="#contact">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright blue-grey darken-4">
+			<div class="container center">
+				© 2022 Clinic Net Shop BD Ltd. <br>All Rights Reserved.
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+
+</body>
+
+</html>
+<script src="../code.jquery.com/jquery-3.1.1.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="../cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script type="text/javascript">
+	;(function(){
+		function id(v){ return document.getElementById(v); }
+		function loadbar() {
+			var ovrl = id("overlay"),
+			prog = id("progress"),
+			stat = id("progstat"),
+			img = document.images,
+			c = 0,
+			tot = img.length;
+			if(tot == 0) return doneLoading();
+
+			function imgLoaded(){
+				c += 1;
+				var perc = ((100/tot*c) << 0) +"%";
+				prog.style.width = perc;
+				stat.innerHTML = "Loading "+ perc;
+				if(c===tot) return doneLoading();
+			}
+			function doneLoading(){
+				ovrl.style.opacity = 0;
+				setTimeout(function(){ 
+					ovrl.style.display = "none";
+				}, 1500);
+			}
+			for(var i=0; i<tot; i++) {
+				var tImg     = new Image();
+				tImg.onload  = imgLoaded;
+				tImg.onerror = imgLoaded;
+				tImg.src     = img[i].src;
+			}    
+		}
+		document.addEventListener('DOMContentLoaded', loadbar, false);
+	}());
+	$(document).ready(function(){
+		$('.sidenav').sidenav();
+		$('.dropdown-trigger').dropdown();
+		$('.scrollspy').scrollSpy();
+		$('.carousel').carousel();
+	});
+
+
+	$(document).ready(function() {
+
+		var favImage = ["image/azomi.png", "image/mizo.png"];
+		var nameImage = ["Yasuhiro <br class='hide-on-med-and-up'>Azumi", "Tatsuya <br class='hide-on-med-and-up'>Mizoguchi"];
+		var deg = ["Managing <br class='hide-on-med-and-up'>Director", "CEO & President"];
+		var commets = [
+		"We are a software development company that can communicate in Japanese and English in Dhaka,<br> Bangladesh. By developing systems with the Japan - Bangladesh cooperative team,<br> we can develop high quality systems with low development cost.",
+		"We are a software development company that can communicate in Japanese and English in Dhaka,<br> Bangladesh. By developing systems with the Japan - Bangladesh cooperative team,<br> we can develop high quality systems with low development cost."
+		];
+		var i=0;
+		setInterval(function() {
+			$('#companyProfileImage').css('margin-left','50px');
+			$('#company').css('margin-left','-50px');
+			$('#deg').css('margin-left','-50px');
+			$('#commets').css('margin-left','-50px');
+
+
+
+
+			$('#companyProfileImage').attr('src',favImage[i]);
+			$('#company').html(nameImage[i]);
+			$('#deg').html(deg[i]);
+			$('#commets').html(commets[i]);
+			i = i+1;
+			if(i == favImage.length){
+				i = 0;
+			}
+			$("#companyProfileImage").animate({'margin-left':'0px'},1000)
+			$("#company").animate({'margin-left':'6%'},1000)
+			$("#deg").animate({'margin-left':'6%'},1000)
+			$("#commets").animate({'margin-left':'6%'},1000)
+		},5000);
+	});
+
+</script>
+

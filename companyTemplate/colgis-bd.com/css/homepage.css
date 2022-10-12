@@ -1,0 +1,251 @@
+body{
+  margin:0;
+  overflow-x:hidden;
+  font-family: 'Bree Serif', cursive;
+}
+
+.v-header{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  color:#fff;
+}
+.logotext{
+	position: relative;
+	top: -18px;
+	font-family: Noto Serif, serif; 
+	font-weight: bold;
+}
+
+#dropdown1{
+	width: 62px !important;
+   
+    top: 56px  !important;
+    min-width: 50px !important;
+}
+
+
+.fullscreen-video-wrap{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  overflow:hidden;
+}
+
+.fullscreen-video-wrap video{
+  min-height:100%;
+  min-width:100%;
+}
+
+.header-overlay{
+  height:100vh;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100vw;
+  z-index:1;
+  /*background:#225470;*/
+  background:#37474f;
+  opacity:0.85;
+}
+
+
+.header-content{
+  z-index:2;
+}
+
+.header-content h1{
+  font-size:50px;
+  margin:0;
+}
+
+.header-content p{
+  font-size:1.5rem;
+  display:block;
+  padding-bottom:2rem;
+}
+
+
+
+.memberImg{
+  width: auto;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  height: 500px;
+  float: right;
+}
+.memberDiv img {margin: -70px 0 0 0;}
+.memberDiv,.memberDiv img {width:100%; }
+.memberDiv {position:relative; height: 560px;overflow: hidden; }
+.memberDiv:after {
+  width:100%;
+  content:'';
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  background: linear-gradient(75deg, rgba(55, 71, 79, 1) 15%,rgba(96, 125, 139, 0.5), rgba(236, 239, 241, 0) );
+  height:100%;
+}
+
+.memberText{
+  position: absolute;
+    top: 60px;
+    z-index: +1;
+    font-family: 'Bree Serif', cursive;
+}
+#map {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+      }
+
+.cs{
+    background-color: #eceff1 ;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    font-size: 19px;
+}
+
+.single_job_item {
+    padding: 30px 0 70px;
+    border-bottom:  1px solid #cfd8dc ;
+}
+@media only screen and (max-width: 600px) {
+  .single_job_item {
+    padding: 12px 0 127px;
+    border-bottom:  1px solid #cfd8dc ;
+}
+.viewButton{
+  margin-top: 10px;
+}
+  .memberDiv img {float: right;margin: 0;}
+  .memberDiv,.memberDiv img {height: 560px; width: auto;}
+  .memberDiv {position:relative; height: 560px;overflow: hidden; }
+  .memberDiv:after {
+    width:100%;
+    content:'';
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    background: linear-gradient(360deg, rgba(55, 71, 79, 1) ,rgba(96, 125, 139, 0.5), rgba(236, 239, 241, 0) );
+    height:100%;
+  }
+
+  
+
+  .memberText{
+      position: absolute;
+      top: 60%;
+      z-index: +1;
+      font-family: 'Bree Serif', cursive;
+  }
+    .ss{
+      background-color: white !important ;
+      padding: 12px !important;
+      border-radius: 6px !important;
+      border: none !important;
+      font-size: 19px !important;
+      font-size: 20px;
+      font-weight: bold
+  }
+}
+
+
+
+
+.flip-card {
+  background-color: transparent;
+
+  height: 250px;
+  perspective: 1000px;
+  margin-bottom: 30px;
+
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*text-align: center;*/
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 5px;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  z-index: 2;
+}
+
+.flip-card-front h3{
+    margin: 0px auto;
+}
+.flip-card-back {
+  background-color: #37474f;
+  color: white;
+  transform: rotateY(180deg);
+  z-index: 1;
+  padding: 10px 0 0 35px;
+}
+.flip-card-back p{
+  font-size: 20px
+}
+
+
+
+.manageImg{
+  width: 100%;
+    border-radius: 50%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+    .cs{
+      font-size: 10px
+    }
+    .memberDiv {height: 500px; }
+  }
+
+
+
+  .careerBack{
+    z-index: -1;
+    position: absolute;
+    height: 45%;
+    width: 100%;
+  }
+
+  .careerBody{
+        margin-top: 150px;
+    padding: 30px 25px ;
+    border-radius: 20px;
+  }
+
+.news-marquee{
+    width: 100%;
+    padding: 8px 0;
+    background-color: #d5e3ea;
+    color: #37474F;
+    font-size: 15px;
+    letter-spacing: .8px;
+  }
+ 
+
+

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from colgis-bd.com/webshowcase.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Oct 2022 16:50:29 GMT -->
+<head>
+	<title>Company Profile | Colgis BD Ltd. </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="css/homepage.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif|Bree+Serif|Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="icon" href="image/colgis_logo_transparent.png" type="image/png">
+	<link rel="stylesheet" href="../use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+</head>
+<body>
+	
+	<style type="text/css">
+	#overlay{
+		position:fixed;
+		z-index:99999;
+		top:0;
+		left:0;
+		bottom:0;
+		right:0;
+		background:rgba(0,0,0,0.9);
+		transition: 1s 0.4s;
+	}
+	#progress{
+		height:1px;
+		background:#fff;
+		position:absolute;
+		width:0;                /* will be increased by JS */
+		top:50%;
+	}
+	#progstat{
+		font-size:0.7em;
+		letter-spacing: 3px;
+		position:absolute;
+		top:50%;
+		margin-top:-40px;
+		width:100%;
+		text-align:center;
+		color:#fff;
+	}
+	.card-image{
+		max-height: 352px;
+		overflow: hidden; 
+	}
+
+	.card-title {
+	   -webkit-text-stroke: 1px black;
+	   color: white;
+	   text-shadow:
+	       3px 3px 0 #000,
+	     -1px -1px 0 #000,  
+	      1px -1px 0 #000,
+	      -1px 1px 0 #000,
+	       1px 1px 0 #000;
+	}
+	.ulli ul{
+		list-style: disc;
+    	margin: 0px 10px 5px 30px;
+	}
+
+	.ulli ul li{
+		list-style-type: disc !important;
+		text-align: justify;
+	}
+
+	p{
+		text-align: justify;
+	}
+
+</style>
+<div id="overlay">
+	<div id="progstat"></div>
+	<div id="progress"></div>
+</div>
+<div class="navbar-fixed scrollspy" id="home">
+	<nav class="blue-grey darken-3">
+		<div class="nav-wrapper">
+			<a href="index.html" class="brand-logo" style="width: 220px;">
+				<img src="image/colgis_logo_transparent.png" style="height: 60px"> <span class="logotext" style=""> Colgis BD</span>
+			</a>
+			<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html#service">Service</a></li>
+				<li><a href="company.html">Company Profile</a></li>
+				<li><a href="aboutBangladesh.html">About Bangladesh</a></li>
+				<li><a href="career.html">Career</a></li>
+				<li><a href="index.html#contact">Contact Us</a></li>
+				<li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><img src="image/en.png" style="width: 30px;margin: 0 -15px -10px 0;"><i class="material-icons right">arrow_drop_down</i></a></li>
+			</ul>
+		</div>
+	</nav>
+</div>
+<ul id="slide-out" class="sidenav">
+	<li><a href="index.html#home">Home</a></li>
+	<li><a href="index.html#service">Service</a></li>
+	<li><a href="company.html">Company Profile</a></li>
+	<li><a href="aboutBangladesh.html">About Bangladesh</a></li>
+	<li><a href="career.html">Career</a></li>
+	<li><a href="index.html#contact">Contact Us</a></li>
+</ul>
+<!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
+
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content" >
+	<li><a href="#!"><img src="image/jp.png" style="width: 30px;margin: 0 -15px -10px 0;"></a></li>
+	<li class="divider"></li>
+	<li><a href="#!"><img src="image/bn.png" style="width: 30px;margin: 0 -15px -10px 0;"></a></li>
+	<li class="divider"></li>
+</ul>
+
+
+<h3 class=" center " >Web Development</h3><br>
+
+<div class="container">
+	<div class="card horizontal z-depth-4">
+		<div class="card-image">
+			<img class="materialboxed" data-caption="Dream Master" src="image/web/dreammaster.png">
+			<span class="card-title">Dream Master</span>
+		</div>
+		<div class="card-stacked">
+			<div class="card-tabs">
+				<ul class="tabs tabs-fixed-width">
+					<li class="tab"><a href="#test40">Technology</a></li>
+					<li class="tab"><a href="#test50">Description</a></li>
+					<li class="tab"><a href="#test60">Gallery</a></li>
+				</ul>
+			</div>
+			<div class="card-content grey lighten-4">
+				<div id="test40">
+					<div class="row" style="margin-bottom: 0px; ">	
+						<div class="col s6 ulli">	
+							<h6>Language:</h6>
+							<ul>
+								<li>HTML CSS3</li> 
+								<li>PHP</li> 
+								<li>JavaScript</li>
+								<li>Ajax</li>
+							</ul>
+							<h6>Database:</h6>
+							<ul>
+								<li>PostgreSQL</li> 
+							</ul>
+						</div>
+						<div class="col s6 ulli">
+							<h6>CSS Frameworks:</h6>
+							<ul>
+								<li>Bootstrap</li>
+								<li>Materialize</li>
+							</ul> 
+							<h6>PHP Frameworks:</h6>
+							<ul>
+								<li>Laravel</li>
+							</ul> 
+							<h6>JS Frameworks:</h6>
+							<ul>
+								<li>Vue JS</li> 
+							</ul> 
+						</div>
+					</div>	
+					
+					
+
+				</div>
+				<div id="test50"><p>Dream Master is a web based solution for user and entertainer to provide help and service to organize events or gathering party.</p> 
+<p>By using this web app user can post competitions. Competitions includes informations such as, what type of event user going to host, when it will going to host, for that how many entertainer needful, can select entertainer category or if not matched with given category can choose others option too. User also can search and request masters or entertainers using search and request page.</p> 
+<p>Masters can create their profiles and this profile will going to approve by admin only then master profile displayed on web as entertainer profile. Once any user request for master or entertainer master get notification in both web app and email and can accept request or deny. If master accept user request user get notification in both web app and email. Chat option also be available after master accept user request. Both user and master can communicate by using chat option to get a clear view about their requirements, payments etc. After completed event successfully user can rate master and this rating added to master profile what is counted as an indicator how popular that master is or how good service this master provided. This rating is important for master to maintain a good profile to make their profile attractive to the user and help them to get more request from user in future.</p>
+<p>Payment system also included. After completed event successfully user need to pay required amount to the admin and will going to pay master by the deadline selected before. After successfully competition of payment chat options will going to close.</p> 
+<p>As Admin handling all currency and communication stuffs this is highly secured for both user and master and no violation conflict in terms of competition, request or payment stuffs.</p></div>
+				<div id="test60">
+					<div class="carousel" style="margin: -50px 0 0 0;">
+		    			<a class="carousel-item " href="#one!"><img src="image/web/dreammaster1.png"></a>
+					    <a class="carousel-item " href="#two!"><img src="image/web/dreammaster2.png"></a>
+					    <a class="carousel-item " href="#three!"><img src="image/web/dreammaster3.png"></a>
+  					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="page-footer blue-grey darken-3">
+	<div class="container">
+		<div class="row">
+			<div class="col l6 s12">
+				<div class="input-field col s6">
+					<input id="name" type="text" class="validate" style="color: #fff">
+					<label for="name">Full Name</label>
+				</div>
+				<div class="input-field col s6">
+					<input id="email" type="email" class="validate" style="color: #fff">
+					<label for="email">Email</label>
+				</div>
+				<div class="input-field col s12">
+					<textarea id="textarea1" class="materialize-textarea" style="color: #fff"></textarea>
+					<label for="textarea1">Text</label>
+				</div>
+				<div class="input-field col s12">
+					<button class="btn waves-effect waves-light blue-grey darken-1" type="submit" name="action" style="text-transform: none;font-family: 'Bree Serif', cursive;">Send Email
+						<i class="material-icons right">send</i>
+					</button>
+				</div>
+			</div>
+			<div class="col l4 offset-l2 s12">
+				<h5 class="white-text">Links</h5>
+				<ul>
+					<li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+					<li><a class="grey-text text-lighten-3" href="index.html#service">Service</a></li>
+					<li><a class="grey-text text-lighten-3" href="company.html">Company Profile</a></li>
+					<li><a class="grey-text text-lighten-3" href="aboutBangladesh.html">About Bangladesh</a></li>
+					<li><a class="grey-text text-lighten-3" href="career.html">Career</a></li>
+					<li><a class="grey-text text-lighten-3" href="index.html#contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer-copyright blue-grey darken-4">
+		<div class="container center">
+			©2019 Colgis BD Ltd. <br>All Rights Reserved. 
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+</body>
+
+<!-- Mirrored from colgis-bd.com/webshowcase.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Oct 2022 16:51:08 GMT -->
+</html>
+<script src="../code.jquery.com/jquery-3.1.1.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="../cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script type="text/javascript">
+	$(window).on("load",function() {
+
+		dofirst()
+	});
+	;(function(){
+		function id(v){ return document.getElementById(v); }
+		function loadbar() {
+			var ovrl = id("overlay"),
+			prog = id("progress"),
+			stat = id("progstat"),
+			img = document.images,
+			c = 0,
+			tot = img.length;
+			if(tot == 0) return doneLoading();
+
+			function imgLoaded(){
+				c += 1;
+				var perc = ((100/tot*c) << 0) +"%";
+				prog.style.width = perc;
+				stat.innerHTML = "Loading "+ perc;
+				if(c===tot) return doneLoading();
+			}
+			function doneLoading(){
+				ovrl.style.opacity = 0;
+				setTimeout(function(){ 
+					ovrl.style.display = "none";
+				}, 1500);
+			}
+			for(var i=0; i<tot; i++) {
+				var tImg     = new Image();
+				tImg.onload  = imgLoaded;
+				tImg.onerror = imgLoaded;
+				tImg.src     = img[i].src;
+			}    
+		}
+		document.addEventListener('DOMContentLoaded', loadbar, false);
+	}());
+	$(document).ready(function(){
+		$('.sidenav').sidenav();
+		$('.dropdown-trigger').dropdown();
+		$('.scrollspy').scrollSpy();
+		$('.carousel').carousel();
+		$('.tabs').tabs();
+		 $('.materialboxed').materialbox();
+	});
+
+	function dofirst(){
+		// if ($(window).width() > 767) {
+		// 	var maxHeightRecruit = Math.max.apply(null, $(".festivalCard").map(function ()
+		// 	{
+		// 	    return $(this).height();
+		// 	}).get());
+		// 	$(".festivalCard").css('height',Math.round(maxHeightRecruit) )
+		// }	
+
+		// if ($(window).width() > 760) {
+			var maxHeightRecruit = Math.max.apply(null, $(".card-image").map(function ()
+			{
+			    return $(this).height();
+			}).get());
+			$(".horizontal>div>img").css('height',Math.round(maxHeightRecruit-48) );
+			$(".card-stacked>.card-content").css('max-height',Math.round(maxHeightRecruit-48) );
+			$(".card-stacked>.card-content").css('overflow-y', 'scroll');
+		// }	
+
+		
+
+		if ($(window).width() < 420) {
+			$(".horizontal").removeClass("horizontal");
+			console.log("im in");
+		}	
+	}
+</script>
+

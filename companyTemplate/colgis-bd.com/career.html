@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from colgis-bd.com/career.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Oct 2022 16:51:08 GMT -->
+<head>
+	<title>Career | Colgis BD Ltd. </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="css/homepage.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif|Bree+Serif|Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="icon" href="image/colgis_logo_transparent.png" type="image/png">
+	<link rel="stylesheet" href="../use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+</head>
+<body>
+	
+	<style type="text/css">
+	#overlay{
+		position:fixed;
+		z-index:99999;
+		top:0;
+		left:0;
+		bottom:0;
+		right:0;
+		background:rgba(0,0,0,0.9);
+		transition: 1s 0.4s;
+	}
+	#progress{
+		height:1px;
+		background:#fff;
+		position:absolute;
+		width:0;                /* will be increased by JS */
+		top:50%;
+	}
+	#progstat{
+		font-size:0.7em;
+		letter-spacing: 3px;
+		position:absolute;
+		top:50%;
+		margin-top:-40px;
+		width:100%;
+		text-align:center;
+		color:#fff;
+	}
+
+	.modal-content ul{
+		list-style: disc;
+    	margin: 0px 10px 5px 30px;
+	}
+
+	.modal-content ul li{
+		list-style-type: disc !important;
+		text-align: justify;
+	}
+	.job-list,
+	.vacancy-list {
+		width: 300px;
+		line-height: 20px;
+		padding: 15px;
+		<!-- box-shadow: 0px 0px 17px #ddd; -->
+	}
+	.job-list a{
+		position: relative;
+		display: inline-block;
+		color: black;
+		font-weight: 800;
+		text-decoration: none;
+		overflow: hidden;
+	}
+	.job-list a:before {
+		position: absolute;
+		content: attr(data-content);
+		top: 0;
+		left: 0;
+		width: 0;
+		color: #f33f3f;
+		white-space: nowrap;
+		overflow: hidden;
+		-webkit-transition: width 875ms ease;
+		transition: width 875ms ease;
+	}
+	.job-list a:hover:before {
+		width: 100%;
+		text-decoration: none;
+	}
+	.job-list:hover {
+		text-decoration: none;
+	}
+	.single_job_item {
+		padding: 30px 0 45px !important;
+	}
+	</style>
+<div id="overlay">
+	<div id="progstat"></div>
+	<div id="progress"></div>
+</div>
+<div class="navbar-fixed scrollspy" id="home">
+	<div class="news-marquee">
+		<marquee direction="scroll" scrollamount="5">Currently, all staffs of Colgis BD Ltd. are working from home due to global corona crisis. When this pandemic is under control, we are planning to rent another office for employees.</marquee>
+	</div>
+	<nav class="blue-grey darken-3">
+		<div class="nav-wrapper">
+			<a href="index.html" class="brand-logo" style="width: 220px;">
+				<img src="image/colgis_logo_transparent.png" style="height: 60px"> <span class="logotext" style=""> Colgis BD</span>
+			</a>
+			<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html#service">Service</a></li>
+				<li><a href="company.html">Company Profile</a></li>
+				<li><a href="#!">About Bangladesh</a></li>
+				<li><a target="_blank" href="https://recruit-bd.colgis.jp/jobs">Career</a></li>
+				<li><a href="index.html#contact">Contact Us</a></li>
+				<li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><img src="image/en.png" style="width: 30px;margin: 0 -15px -10px 0;"><i class="material-icons right">arrow_drop_down</i></a></li>
+			</ul>
+		</div>
+	</nav>
+</div>
+<ul id="slide-out" class="sidenav">
+	<li><a href="index.html#home">Home</a></li>
+	<li><a href="index.html#service">Service</a></li>
+	<li><a href="company.html">Company Profile</a></li>
+	<li><a href="#!">About Bangladesh</a></li>
+	<li><a target="_blank" href="https://recruit-bd.colgis.jp/jobs">Career</a></li>
+	<li><a href="index.html#contact">Contact Us</a></li>
+</ul>
+<!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
+
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content" >
+	<li><a href="#!"><img src="image/jp.png" style="width: 30px;margin: 0 -15px -10px 0;"></a></li>
+	<li class="divider"></li>
+	<li><a href="#!"><img src="image/bn.png" style="width: 30px;margin: 0 -15px -10px 0;"></a></li>
+	<li class="divider"></li>
+</ul>
+
+<section class="careerBack blue-grey lighten-4">
+	<div class="container">
+		<br>
+		<br>
+		<h3 class="">CAREER</h3><br>
+	</div>
+</section>
+
+<div class="container ">
+	<div class="row white z-depth-4 careerBody">
+		<div class="single_job_item">
+			<div class="col-12 l7 m7 s12" style="font-size: 19px;font-weight: bold;">
+				<div class="vacancy-list">
+					<a >Vacancy Announced</a>
+				</div>
+				<div class="job-list">
+					<a target="_blank" data-content="Apply here" href="https://recruit-bd.colgis.jp/jobs" href="#">Apply here</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- <footer class="page-footer blue-grey darken-3">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<div class="input-field col s6">
+		          		<input id="name" type="text" class="validate" style="color: #fff">
+		          		<label for="name">Full Name</label>
+					</div>
+					<div class="input-field col s6">
+		          		<input id="email" type="email" class="validate" style="color: #fff">
+		          		<label for="email">Email</label>
+					</div>
+					<div class="input-field col s12">
+			          	<textarea id="textarea1" class="materialize-textarea" style="color: #fff"></textarea>
+			      		<label for="textarea1">Text</label>
+        			</div>
+        			<div class="input-field col s12">
+	        			<button class="btn waves-effect waves-light blue-grey darken-1" type="submit" name="action" style="text-transform: none;font-family: 'Bree Serif', cursive;">Send Email
+	    					<i class="material-icons right">send</i>
+	  					</button>
+	  				</div>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="white-text">Links</h5>
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+						<li><a class="grey-text text-lighten-3" href="index.html#service">Service</a></li>
+						<li><a class="grey-text text-lighten-3" href="company.html">Company Profile</a></li>
+						<li><a class="grey-text text-lighten-3" href="#!">About Bangladesh</a></li>
+						<li><a class="grey-text text-lighten-3" href="career.html">Career</a></li>
+						<li><a class="grey-text text-lighten-3" href="index.html#contact">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright blue-grey darken-4">
+			<div class="container center">
+				B) 2019 Colgis BD Ltd. All Rights Reserved
+			</div>
+		</div>
+	</footer> -->
+
+
+
+
+
+
+</body>
+
+<!-- Mirrored from colgis-bd.com/career.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Oct 2022 16:51:08 GMT -->
+</html>
+<script src="../code.jquery.com/jquery-3.1.1.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="../cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+    	$('.modal').modal();
+  	});
+	;(function(){
+		function id(v){ return document.getElementById(v); }
+		function loadbar() {
+			var ovrl = id("overlay"),
+			prog = id("progress"),
+			stat = id("progstat"),
+			img = document.images,
+			c = 0,
+			tot = img.length;
+			if(tot == 0) return doneLoading();
+
+			function imgLoaded(){
+				c += 1;
+				var perc = ((100/tot*c) << 0) +"%";
+				prog.style.width = perc;
+				stat.innerHTML = "Loading "+ perc;
+				if(c===tot) return doneLoading();
+			}
+			function doneLoading(){
+				ovrl.style.opacity = 0;
+				setTimeout(function(){ 
+					ovrl.style.display = "none";
+				}, 1500);
+			}
+			for(var i=0; i<tot; i++) {
+				var tImg     = new Image();
+				tImg.onload  = imgLoaded;
+				tImg.onerror = imgLoaded;
+				tImg.src     = img[i].src;
+			}    
+		}
+		document.addEventListener('DOMContentLoaded', loadbar, false);
+	}());
+	$(document).ready(function(){
+		$('.sidenav').sidenav();
+		$('.dropdown-trigger').dropdown();
+		$('.scrollspy').scrollSpy();
+		$('.carousel').carousel();
+	});
+
+
+
+</script>
+
