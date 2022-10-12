@@ -209,23 +209,27 @@
 		<div class="container">
 			<div class="row">
 				<div class="col l6 s12">
-					<div class="input-field col s6">
-		          		<input id="name" type="text" class="validate" style="color: #fff">
-		          		<label for="name">Full Name</label>
-					</div>
-					<div class="input-field col s6">
-		          		<input id="email" type="email" class="validate" style="color: #fff">
-		          		<label for="email">Email</label>
-					</div>
-					<div class="input-field col s12">
-			          	<textarea id="textarea1" class="materialize-textarea" style="color: #fff"></textarea>
-			      		<label for="textarea1">Text</label>
-        			</div>
-        			<div class="input-field col s12">
-	        			<button class="btn waves-effect waves-light blue-grey darken-1" type="submit" name="action" style="text-transform: none;font-family: 'Bree Serif', cursive;">Send Email
-	    					<i class="material-icons right">send</i>
-	  					</button>
-	  				</div>
+					<form action="https://api.web3forms.com/submit" method="post" role="form">
+						<input type="hidden" name="access_key" value="3d699b78-3f51-4d03-9e8c-9e437aec32bb">
+						<div class="input-field col s6">
+							<input id="name" type="text" class="validate" style="color: #fff">
+							<label for="name">Full Name</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="email" type="email" class="validate" style="color: #fff">
+							<label for="email">Email</label>
+						</div>
+						<div class="input-field col s12">
+							<textarea id="textarea1" class="materialize-textarea" style="color: #fff"></textarea>
+							<label for="textarea1">Text</label>
+						</div>
+						<input type="hidden" name="redirect" value="http://clinicnetshop.ml/">
+						<div class="input-field col s12">
+							<button class="btn waves-effect waves-light blue-grey darken-1" type="submit" name="action" style="text-transform: none;font-family: 'Bree Serif', cursive;">Send Email
+								<i class="material-icons right">send</i>
+							</button>
+						</div>
+					</form>
 				</div>
 				<div class="col l4 offset-l2 s12">
 					<h5 class="white-text">Links</h5>
