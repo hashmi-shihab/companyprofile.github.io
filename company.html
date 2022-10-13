@@ -209,23 +209,34 @@
 		<div class="container">
 			<div class="row">
 				<div class="col l6 s12">
-					<form action="https://api.web3forms.com/submit" method="post" role="form">
-						<input type="hidden" name="access_key" value="3d699b78-3f51-4d03-9e8c-9e437aec32bb">
+					<div id="success-message" class="alert alert-success" style="display: none; background-color: #546e7a !important; padding: 10px;" >
+						<strong>Thanks for the email. We'll be in touch promptly.</strong>
+						<button type="button" class="dismissMe" style="float: right">
+							&times;
+						</button>
+					</div>
+					<div id="error-message" class="alert alert-error" style="display: none; background-color: #546e7a !important; padding: 10px;" >
+						<strong style="color: red">Please fill up all three fields</strong>
+						<button type="button" class="dismissMe" style="float: right">
+							&times;
+						</button>
+					</div>
+
+					<form method="POST" role="form">
 						<div class="input-field col s6">
-							<input id="name" type="text" class="validate" style="color: #fff" required>
+							<input id="name" name="name" type="text"  class="validate" style="color: #fff" required>
 							<label for="name">Full Name</label>
 						</div>
 						<div class="input-field col s6">
-							<input id="email" type="email" class="validate" style="color: #fff" required>
+							<input id="email" name="email" type="email" class="validate" style="color: #fff" required>
 							<label for="email">Email</label>
 						</div>
 						<div class="input-field col s12">
-							<textarea id="textarea1" class="materialize-textarea" minlength="10" style="color: #fff" required></textarea>
+							<textarea id="textarea1" name="textarea1"  class="materialize-textarea" minlength="10" style="color: #fff" required></textarea>
 							<label for="textarea1">Text</label>
 						</div>
-						<input type="hidden" name="redirect" value="http://clinicnetshop.ml/">
 						<div class="input-field col s12">
-							<button class="btn waves-effect waves-light blue-grey darken-1" type="submit" name="action" style="text-transform: none;font-family: 'Bree Serif', cursive;">Send Email
+							<button class="btn waves-effect waves-light blue-grey darken-1" type="submit" id="sendEmail" style="text-transform: none;font-family: 'Bree Serif', cursive;">Send Email
 								<i class="material-icons right">send</i>
 							</button>
 						</div>
@@ -341,5 +352,39 @@
 		},5000);
 	});
 
+</script>
+
+<!--for form redirect off-->
+<script>
+	$('#sendEmail').on("click", function() {
+		name = $("#name").val();
+		email = $("#email").val();
+		text = $("#textarea1").val();
+
+
+		if (name && email && text){
+			$.ajax({
+				url: "https://formspree.io/f/mqkjbnnj",
+				method: "POST",
+				data: {name: name, email: email, text: text},
+				dataType: "json"
+			});
+
+			$("#name").val('');
+			$("#email").val('');
+			$("#textarea1").val('');
+			$("#success-message").css('display','block');
+			return false;
+		}
+		else {
+			$("#error-message").css('display','block');
+		}
+	});
+
+	$('.dismissMe').on("click", function() {
+		//location.reload();
+		$("#success-message").css('display','none');
+		$("#error-message").css('display','none');
+	});
 </script>
 
