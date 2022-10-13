@@ -212,15 +212,15 @@
 					<form action="https://api.web3forms.com/submit" method="post" role="form">
 						<input type="hidden" name="access_key" value="3d699b78-3f51-4d03-9e8c-9e437aec32bb">
 						<div class="input-field col s6">
-							<input id="name" type="text" class="validate" style="color: #fff">
+							<input id="name" type="text" class="validate" style="color: #fff" required>
 							<label for="name">Full Name</label>
 						</div>
 						<div class="input-field col s6">
-							<input id="email" type="email" class="validate" style="color: #fff">
+							<input id="email" type="email" class="validate" style="color: #fff" required>
 							<label for="email">Email</label>
 						</div>
 						<div class="input-field col s12">
-							<textarea id="textarea1" class="materialize-textarea" style="color: #fff"></textarea>
+							<textarea id="textarea1" class="materialize-textarea" minlength="10" style="color: #fff" required></textarea>
 							<label for="textarea1">Text</label>
 						</div>
 						<input type="hidden" name="redirect" value="http://clinicnetshop.ml/">
